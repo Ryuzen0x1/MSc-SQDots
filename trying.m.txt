@@ -1,0 +1,48 @@
+clear;
+close all;
+
+% Parameters
+deltap = -5*10^12:0.01*10^12:5*10^12;
+deltac = 1*10^12;
+deltad = 2.0*10^12;
+% omega = 0;
+K = 1.4e17;
+Omega_b = 0.5*10^12;
+Omega_c = 1*10^12;
+Omega_p = 10.08*10^14;
+gamma_21 = 2.31*10^12;                 % (\gamma_{21})
+gamma_31 = 2.10*10^9;                 % (\gamma_{31})
+gamma_41 = 2.21*10^11;                 % (\gamma_{41})
+gamma_2 = 1.2*10^12;
+gamma_4 = 2.5*10^12;
+c = 3e8;
+
+% Complex detuning terms
+d21 = deltap + 1i * (gamma_21 / 2);
+d31 = deltap + deltac + 1i * (gamma_31 / 2);
+d41 = deltap + deltad + 1i * (gamma_41 / 2);
+
+% Numerator and denominator terms
+Dp = (deltap + 1i * gamma_2/2) .* (deltap + deltad + 1i * gamma_4/2) - abs(Omega_b)^2;
+
+D = (deltap + 1i * gamma_2/2) .* (deltap + deltad + 1i * gamma_4/2) .* ...
+    (deltap + deltac + 1i * gamma_31/2) - ...
+    abs(Omega_b)^2 .* (deltap + deltac + 1i * gamma_31/2) - ...
+    abs(Omega_c)^2 .* (deltap + deltad + 1i * gamma_4/2);
+
+% Third-order susceptibility (\chi_3)
+A = (2 .* K .* c) ./ Omega_p; % Normalization constant
+chi1 = ((-A.*Dp) ./ D);
+%chi3 = abs(A).^2 .* Dp ./ (D.^2 .* d21);
+
+% Plotting
+figure;
+plot(deltap ./ 10^12, real(chi1), 'b', 'LineWidth', 1.5); hold on;
+plot(deltap ./ 10^12, imag(chi1), 'r', 'LineWidth', 1.5); hold on;
+%plot(deltap ./ 10^12, real(chi3), 'b', 'LineWidth', 1.5); hold on; % Real part
+%plot(deltap ./ 10^12, imag(chi3), 'r', 'LineWidth', 1.5);          % Imaginary part
+xlabel('\Delta_p (THz)');
+ylabel('\chi_1');
+legend('Re(\chi_1)', 'Im(\chi_1)');
+title('First order Susceptibility');
+grid on;
