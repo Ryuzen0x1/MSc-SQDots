@@ -20,9 +20,7 @@ Delta3 = deltap +deltac2+1i*(g41/2);
 Dp = (Delta2 + 1i*g31/2) .* (Delta3 + 1i*g41/2) - abs(Omega_c2)^2;
 D = (Delta1 + 1i*g21/2) .* (Delta2 + 1i*g31/2) .* (Delta3 + 1i*g41/2)- abs(Omega_c1)^2 .* (Delta3 + 1i*g41/2)- abs(Omega_c2)^2 .* (Delta1 + 1i*g21/2);
 A=((2.*c.*K)./(omegap));
-l=A*A*84000;
-
-%chi3 = ((2*c*K) / omegap )* ((l*abs(Dp)) ./ abs(D))((abs(Dp).^2 + (abs(Omega_c1)^2) (abs(Delta3 + 1i*g41/2).^2) +( abs(Omega_c2)^2)*(abs(Omega_c1)^2))/ abs(D).^2);
+l=(A^2)*84000;
 
 chi1=((-A.*Dp)./D);
 %chi1a=imag(chi1);

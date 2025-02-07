@@ -2,29 +2,29 @@ clear;
 close all;
 
 % Parameters
-mu41=15.68e-29;
-hbar=1.05e-34;
-deltap=-5e13:0.001e13:5e13;
+mu41=15.68*10^-29;
+hbar=2.10*10^-34;
+deltap=-5*10^13:0.001*10^13:5*10^13;
 deltac=0;
 deltad=0;
 deltab=0;
 phi=0;
-omegac=1.51e11;
-omegap=2.84e12;
-omegad=0e12;
-omegab=0e12;
-g21=1.51e11;
-g31=3.03e12;
-g41=3.03e12;
-k=1.24e15;
-c=3e8; % Speed of light
+omegac=1.51*10^11;
+omegap=2.84*10^12;
+omegad=0*10^12;
+omegab=0*10^12;
+g21=1.51*10^11;
+g31=3.03*10^12;
+g41=3.03*10^12;
+k=(1.24)*10^15;
+c=3*10^8; % Speed of light
 
 % Complex detuning terms
 X=(deltap-deltab+1i*0.5.*g21);
 Y=(deltap-deltad+1i*0.5.*g31);
 Z=(deltap+1i*0.5.*g41);
 
-% Numerator and Denominator terms
+% Numerator and Demoni
 Dp=(X.*Z-abs(omegac).^2);
 D=(X.*Y.*Z-Z.*abs(omegac).^2-X.*abs(omegad).^2-Y.*abs(omegab).^2+2*(omegac)*(omegad)*(omegab)*cos(phi));
 D2=(Y.*abs(omegab)-abs(omegac*omegad)*exp(1i*phi));
@@ -34,10 +34,8 @@ B=((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
 
 %chi1=((-A.*Dp)./D);
 chi3=((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
-
-% Plot
 plot(deltap./10.^11,real(chi3), 'b', 'LineWidth', 1.5)
 hold on;
 plot(deltap./10.^11,imag(chi3), 'r', 'LineWidth', 1.5)
-xlabel("Probe freq. (\Delta_p)");
+xlabel("\Delta_p");
 ylabel("Third order susceptibility (\chi^{(3)})");
