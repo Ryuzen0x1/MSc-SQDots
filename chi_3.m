@@ -20,9 +20,9 @@ k=1.24e15;
 c=3e8; % Speed of light
 
 % Complex detuning terms
-X=(deltap-deltab+1i*0.5.*g21);
-Y=(deltap-deltad+1i*0.5.*g31);
-Z=(deltap+1i*0.5.*g41);
+X=(deltap-deltab+(1i/2).*g21);
+Y=(deltap-deltad+(1i/2).*g31);
+Z=(deltap+(1i/2).*g41);
 
 % Numerator and Denominator terms
 Dp=(X.*Z-abs(omegac).^2);
