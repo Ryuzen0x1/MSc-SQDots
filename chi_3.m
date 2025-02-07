@@ -36,8 +36,8 @@ B=((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
 chi3=((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
 
 % Plot
-plot(deltap./10.^11,real(chi3), 'b', 'LineWidth', 1.5)
+plot(deltap./10.^11,real(chi3), 'b', 'LineWidth', 1.5);
 hold on;
-plot(deltap./10.^11,imag(chi3), 'r', 'LineWidth', 1.5)
+plot(deltap./10.^11,imag(chi3), 'r', 'LineWidth', 1.5);
 xlabel("Probe freq. (\Delta_p)");
 ylabel("Third order susceptibility (\chi^{(3)})");
