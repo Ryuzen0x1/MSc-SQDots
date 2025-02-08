@@ -10,8 +10,8 @@ deltac=0;
 deltad=0;
 deltab=0;
 phi=0;
-omegac=1.51e11;
-omegap=2.84e12;
+omegac=1.0e11;
+omegap=2.0e12;
 omegad=0e12;
 omegab=0e12;
 g21=1.51e11;
@@ -37,13 +37,13 @@ B=((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
 chi3=((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
 
 % Plot
-plot(deltap./10.^11,real(chi3), 'Color', [0 0 1], 'LineWidth', 1.5);
+plot(deltap./10.^13,real(chi3), 'Color', [0 0 1], 'LineWidth', 1.5);
 hold on;
-plot(deltap./10.^11,imag(chi3), 'Color', [1 0 0], 'LineWidth', 1.5);
+plot(deltap./10.^13,imag(chi3), 'Color', [1 0 0], 'LineWidth', 1.5);
 
 ax.XAxis.FontSize = 12;
 ax.YAxis.FontSize = 12;
-xticks(-500:100:500);
-xticklabels(arrayfun(@(x) sprintf('%d', x/100), -500:100:500, 'UniformOutput', false));
+%xticks(-500:100:500);
+%xticklabels(arrayfun(@(x) sprintf('%d', x/100), -500:100:500, 'UniformOutput', false));
 xlabel("Probe freq. (\Delta_p) \times{10^{13}}", 'FontSize', 13, 'FontWeight', 'bold');
 ylabel("Third order susceptibility (\chi^{(3)})", 'FontSize', 13, 'FontWeight', 'bold');
