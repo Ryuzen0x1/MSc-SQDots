@@ -12,7 +12,7 @@ deltab = 0;
 phi = 0;
 omegac = 1.0e11;
 omegap = 2.0e12;
-omegad = 0e12;
+omegad = 1.0e12;
 omegab = 0e12;
 g21 = 1.51e11;
 g31 = 3.03e12;
@@ -32,20 +32,68 @@ D2 = (Y.*abs(omegab)-abs(omegac*omegad)*exp(1i*phi));
 D3 = (X.*abs(omegad)-abs(omegac*omegab)*exp(-1i*phi));
 A = ((2.*c.*k)./(omegap));
 B = ((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
-
-%chi1=((-A.*Dp)./D);
 chi3 = ((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
 
 % Plot
 red = [0.98 0.52 0];
 blue = [0.12 0.61 0.73];
-plot(deltap./10.^13,real(chi3), 'blue', 'LineWidth', 1.5);
-hold on;
-plot(deltap./10.^13,imag(chi3), 'red', 'LineWidth', 1.5);
-
 ax.XAxis.FontSize = 12;
 ax.YAxis.FontSize = 12;
-%xticks(-500:100:500);
-%xticklabels(arrayfun(@(x) sprintf('%d', x/100), -500:100:500, 'UniformOutput', false));
-xlabel("Probe freq. (\Delta_p) \times{10^{13}}", 'FontSize', 13, 'FontWeight', 'bold');
-ylabel("Third order susceptibility (\chi^{(3)})", 'FontSize', 13, 'FontWeight', 'bold');
+
+subplot(2,2,1);
+plot(deltap./10.^13,real(chi3), 'blue', 'LineWidth', 1.5);
+xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
+ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
+gtext('\Omega_c=0, \Omega_b=0, \Omega_d=1', 'FontSize', 12, 'Color', 'blue');
+grid on;
+
+omegac = 1.0e11;
+omegad = 2.0e12;
+omegab = 0e12;
+Dp = (X.*Z-abs(omegac).^2);
+D = (X.*Y.*Z-Z.*abs(omegac).^2-X.*abs(omegad).^2-Y.*abs(omegab).^2+2*(omegac)*(omegad)*(omegab)*cos(phi));
+D2 = (Y.*abs(omegab)-abs(omegac*omegad)*exp(1i*phi));
+D3 = (X.*abs(omegad)-abs(omegac*omegab)*exp(-1i*phi));
+A = ((2.*c.*k)./(omegap));
+B = ((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
+chi3 = ((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
+subplot(2,2,2);
+plot(deltap./10.^13,real(chi3), 'blue', 'LineWidth', 1.5);
+xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
+ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
+gtext('\Omega_c=0, \Omega_b=0, \Omega_d=2', 'FontSize', 12, 'Color', 'blue');
+grid on;
+
+omegac = 1.0e11;
+omegad = 3.0e12;
+omegab = 0e12;
+Dp = (X.*Z-abs(omegac).^2);
+D = (X.*Y.*Z-Z.*abs(omegac).^2-X.*abs(omegad).^2-Y.*abs(omegab).^2+2*(omegac)*(omegad)*(omegab)*cos(phi));
+D2 = (Y.*abs(omegab)-abs(omegac*omegad)*exp(1i*phi));
+D3 = (X.*abs(omegad)-abs(omegac*omegab)*exp(-1i*phi));
+A = ((2.*c.*k)./(omegap));
+B = ((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
+chi3 = ((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
+subplot(2,2,3);
+plot(deltap./10.^13,real(chi3), 'blue', 'LineWidth', 1.5);
+xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
+ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
+gtext('\Omega_c=0, \Omega_b=0, \Omega_d=3', 'FontSize', 12, 'Color', 'blue');
+grid on;
+
+omegac = 1.0e11;
+omegad = 4.0e12;
+omegab = 0e12;
+Dp = (X.*Z-abs(omegac).^2);
+D = (X.*Y.*Z-Z.*abs(omegac).^2-X.*abs(omegad).^2-Y.*abs(omegab).^2+2*(omegac)*(omegad)*(omegab)*cos(phi));
+D2 = (Y.*abs(omegab)-abs(omegac*omegad)*exp(1i*phi));
+D3 = (X.*abs(omegad)-abs(omegac*omegab)*exp(-1i*phi));
+A = ((2.*c.*k)./(omegap));
+B = ((abs(Dp).^2+abs(D2).^2+abs(D3).^2)/abs(D).^2);
+chi3 = ((A.*Dp)./D)*(abs(mu41).^2/((hbar).^2))*B;
+subplot(2,2,4);
+plot(deltap./10.^13,real(chi3), 'blue', 'LineWidth', 1.5);
+xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
+ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
+gtext('\Omega_c=0, \Omega_b=0, \Omega_d=4', 'FontSize', 12, 'Color', 'blue');
+grid on;
