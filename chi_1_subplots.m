@@ -35,7 +35,7 @@ plot(deltap./10.^11,real(chi1),  'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-gtext('\Omega_b=2, \Omega_c=3, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
+%gtext('\Omega_b=2, \Omega_c=3, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=4.0e12;
@@ -53,7 +53,7 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-gtext('\Omega_b=3, \Omega_c=4, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
+%gtext('\Omega_b=3, \Omega_c=4, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=5.0e12;
@@ -71,7 +71,7 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-gtext('\Omega_b=4, \Omega_c=5, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
+%gtext('\Omega_b=4, \Omega_c=5, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=6.0e12;
@@ -89,5 +89,5 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-gtext('\Omega_b=5, \Omega_c=6, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
+%gtext('\Omega_b=5, \Omega_c=6, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
