@@ -1,6 +1,5 @@
 clear;
 close all;
-ax = gca;
 
 deltap=-5.0e13:0.001e13:5.0e13;
 deltac=1;
@@ -25,17 +24,22 @@ D = (deltap).*(deltap+deltad).*(deltap+deltac+1i*g31/2)-abs(omegab)^2.*(deltap+d
 A=((2.*c.*K)./(omegap));
 chi1=((-A.*Dp)./D);
 
-re = [0.98 0.52 0];
-bl = [0.12 0.61 0.73];
+yellow = [252, 170, 28] / 255;
+orange = [251, 86, 7] / 255;
+magenta = [255, 0, 110] / 255;
+violet = [131, 56, 236] / 255;
+blu = [58, 134, 255] / 255;
+green = [67, 170, 139] / 255;
+pink = [255, 112, 166] / 255;
+brown = [98, 23, 8] / 255;
 
 subplot(2,2,1);
-plot(deltap./10.^11,imag(chi1),'--', 'Color', [0.98 0.52 0],'LineWidth',1.5);
+plot(deltap./10.^11,imag(chi1),'--', 'Color', yellow,'LineWidth',1.5);
 hold on;
 plot(deltap./10.^11,real(chi1),  'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-%gtext('\Omega_b=2, \Omega_c=3, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=4.0e12;
@@ -53,7 +57,6 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-%gtext('\Omega_b=3, \Omega_c=4, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=5.0e12;
@@ -71,7 +74,6 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-%gtext('\Omega_b=4, \Omega_c=5, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;
 
 omegac=6.0e12;
@@ -89,5 +91,4 @@ plot(deltap./10.^11,real(chi1), 'bl', 'LineWidth',1.5);
 legend({'Img \chi^{(1)}', 'Re \chi^{(1)}'});
 xlabel('\Delta_p', 'Fontsize', 12, 'Fontweight', 'bold');
 ylabel('\chi^{(1)}', 'Fontsize', 12, 'Fontweight', 'bold');
-%gtext('\Omega_b=5, \Omega_c=6, \Omega_d=0', 'Fontsize', 12, 'color', 'blue');
 grid on;

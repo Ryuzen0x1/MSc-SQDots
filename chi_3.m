@@ -45,7 +45,6 @@ plot(deltap./10.^12,real(chi3), 'blue', 'LineWidth', 1.5);
 xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
 ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
 legend('Re \chi^{(3)}');
-%gtext('\Omega_c=0, \Omega_b=1, \Omega_d=0', 'FontSize', 12, 'Color', 'blue');
 grid on;
 
 omegac = 0e11;
@@ -63,7 +62,6 @@ plot(deltap./10.^12,real(chi3), 'blue', 'LineWidth', 1.5);
 xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
 ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
 legend('Re \chi^{(3)}');
-%gtext('\Omega_c=0, \Omega_b=2, \Omega_d=0', 'FontSize', 12, 'Color', 'blue');
 grid on;
 
 omegac = 0e11;
@@ -81,7 +79,6 @@ plot(deltap./10.^12,real(chi3), 'blue', 'LineWidth', 1.5);
 xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
 ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
 legend('Re \chi^{(3)}');
-%gtext('\Omega_c=0, \Omega_b=3, \Omega_d=0', 'FontSize', 12, 'Color', 'blue');
 grid on;
 
 omegac = 0e11;
@@ -99,5 +96,4 @@ plot(deltap./10.^12,real(chi3), 'blue', 'LineWidth', 1.5);
 xlabel("\Delta_p", 'FontSize', 13, 'FontWeight', 'bold');
 ylabel("\chi^{(3)}", 'FontSize', 13, 'FontWeight', 'bold');
 legend('Re \chi^{(3)}');
-%gtext('\Omega_c=0, \Omega_b=4, \Omega_d=0', 'FontSize', 12, 'Color', 'blue');
 grid on;
