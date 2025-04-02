@@ -4,8 +4,8 @@ p = linspace(-400e10, 400e10, 401);
 
 gamma = 2686;
 beta2 = 5.799845e-24;
-beta3 = 1.2e-36;
-beta4 = -2.3e-48;
+beta3 = 1.212e-36;
+beta4 = -2.278e-48;
 Q = 2e-11;
 
 power_levels = [2000, 5000, 9000];
