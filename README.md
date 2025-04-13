@@ -35,7 +35,7 @@ git clone https://github.com/ryuzen0x1/MSc-SQDots.git
 cd MSc-SQDots
 ```
 
-Run the main simulation script: `modulation_instability_simulation.m`
+Run the main simulation script: `Kerr-Quintic_Instability.m`
 
 All plots and results will be saved in the `/results` directory.
 
@@ -44,8 +44,8 @@ All plots and results will be saved in the `/results` directory.
 ```css
 MSc-SQDots/
 ├── Assets/
-│   ├── modulation_instability_simulation.m
-│   ├── compute_MI_gain.m
+│   ├── Kerr-Quintic_Instability.m
+│   ├── two_in_one_gain_v_power.m
 │   └── parameters.m
 ├── results/
 │   └── (simulation outputs and plots)
