@@ -77,4 +77,4 @@ Plots include:
 
 ## 📩 Contact
 
-For questions or collaborations, feel free to reach out via [ryukiryuoma@protom.me] or open an issue.
+For questions or collaborations, feel free to reach out via [ryukiryuoma@protom.me](ryukiryuoma@protom.me) or open an issue.
