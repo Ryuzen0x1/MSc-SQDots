@@ -42,8 +42,8 @@ All plots and results will be saved in the `/results` directory.
 ## 📁 Project Structure
 
 ```css
-modulation-instability-SQD/
-├── src/
+MSc-SQDots/
+├── Assets/
 │   ├── modulation_instability_simulation.m
 │   ├── compute_MI_gain.m
 │   └── parameters.m
