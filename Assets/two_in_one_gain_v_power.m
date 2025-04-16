@@ -4,11 +4,11 @@ p = linspace(-400e10, 400e10, 401);
 
 gamma = 2686;
 beta2 = 5.799845e-24;
-beta3 = 1.212e-36;
-beta4 = -2.278e-48;
+beta3 = 1.2e-36;
+beta4 = -2.3e-48;
 Q = 2e-11;
 
-power_levels = [2000, 5000, 9000];
+power_levels = [10000, 20000, 35000];
 power_labels_kq = {'P=1000 mW', 'P=2500 mW', 'P=3500 mW'};
 power_labels_k = {'P=800 mW', 'P=1500 mW', 'P=2500 mW'};
 
@@ -28,7 +28,7 @@ hold on;
 for i = 1:length(power_levels)
     r = power_levels(i) * 1e-3;
     
-    G_quintic = 2 * sqrt(real(gamma*r*beta_term + 0.25*(beta2.*p.^2).^2 + (r^2)*(p).^2*(Q)^2));
+    G_quintic = 2 * sqrt(real(gamma*r*beta_term - 0.25*(beta2*p.^2).^2 - (r^2)*(p).^2*(Q)^2));
     
     if i == 3
         plot(p, real(G_quintic), 'LineWidth', 1.8, 'Color', colors(i,:));
