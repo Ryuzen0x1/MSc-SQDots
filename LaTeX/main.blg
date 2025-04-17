@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2026/dev/Arch Linux)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: unsrtnat.bst
+Database file #1: citations.bib
+Warning--empty journal in lighthall
+Warning--empty journal in RBoyd
+Warning--empty title in liu2021exact
+Warning--empty journal in MANUKURE2021100140
+Warning--empty journal in BOYD2008135
+You've used 17 entries,
+            2481 wiz_defined-function locations,
+            684 strings with 7990 characters,
+and the built_in function-call counts, 6839 in all, are:
+= -- 559
+> -- 359
+< -- 10
++ -- 140
+- -- 106
+* -- 564
+:= -- 1102
+add.period$ -- 54
+call.type$ -- 17
+change.case$ -- 31
+chr.to.int$ -- 17
+cite$ -- 22
+duplicate$ -- 331
+empty$ -- 624
+format.name$ -- 131
+if$ -- 1430
+int.to.chr$ -- 1
+int.to.str$ -- 18
+missing$ -- 19
+newline$ -- 96
+num.names$ -- 51
+pop$ -- 138
+preamble$ -- 1
+purify$ -- 17
+quote$ -- 0
+skip$ -- 192
+stack$ -- 0
+substring$ -- 366
+swap$ -- 41
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 113
+warning$ -- 5
+while$ -- 56
+width$ -- 0
+write$ -- 227
+(There were 5 warnings)

@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Semiconductor Quantum Dots (SQDs)}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Quantum Coherence and Interference}{2}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Origin of Non-linear Optics}{3}{section.3}%
+\contentsline {section}{\numberline {4}Modulation Instability (MI)}{3}{section.4}%
+\contentsline {section}{\numberline {5}Mathematical Model}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Density Matrix Formalism}{5}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Non-linear Schr\"{o}dinger Equation}{8}{section.6}%
+\contentsline {section}{\numberline {7}Linear and Non-linear Susceptibilities}{9}{section.7}%
+\contentsline {section}{\numberline {8}Dispersion Spectra for \(\chi ^{(3)}\) }{11}{section.8}%
+\contentsline {section}{\numberline {9}Modulation instability of Probe Field}{12}{section.9}%
+\contentsline {section}{\numberline {10}Gain Variation w.r.t Frequency for Kerr}{12}{section.10}%
