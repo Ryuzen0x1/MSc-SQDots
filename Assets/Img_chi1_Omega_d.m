@@ -27,7 +27,7 @@ chi1=((-A.*Dp)./D);
 %X=(abs(omega_c).^2)*(abs(Delta3 + 1i*g41/2).^2);
 %Y=abs(omega_d)*abs(omega_c);
 %chi3 =- l*chi1*((abs(Dp).^2 + X+ Y.^2)/ abs(D).^2);
-plot(deltap./10.^11, -imag(chi1),'-.' , LineWidth=2.5, DisplayName='\Omega_d=2.0', Color=[0 0 1]); % Blue
+plot(deltap./10.^11, -imag(chi1),'-.' , LineWidth=2.5, DisplayName='\Omega_d=0.0', Color=[0 0 1]); % Blue
 hold on;
 
 omega_d=5e11;
@@ -40,7 +40,7 @@ chi1=((-A.*Dp)./D);
 %X=(abs(omega_c).^2)*(abs(Delta3 + 1i*g41/2).^2);
 %Y=abs(omega_d)*abs(omega_c);
 %chi3 =- l*chi1*((abs(Dp).^2 + X + Y.^2)/ abs(D).^2);
-plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=4.0', Color=[1 0 0]); % Red
+plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=2.0', Color=[1 0 0]); % Red
 hold on;
 
 
@@ -54,7 +54,7 @@ chi1=((-A.*Dp)./D);
 %X=(abs(omega_c).^2)*(abs(Delta3 + 1i*g41/2).^2);
 %Y=abs(omega_d)*abs(omega_c);
 %chi3 =- l*chi1*((abs(Dp).^2 + X + Y.^2)/ abs(D).^2);
-plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=6.0'); % Yellow
+plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=4.0'); % Yellow
 hold on;
 
 omega_d=9e11;
@@ -67,7 +67,7 @@ chi1=((-A.*Dp)./D);
 %X=(abs(omega_c).^2)*(abs(Delta3 + 1i*g41/2).^2);
 %Y=abs(omega_d)*abs(omega_c);
 %chi3 =- l*chi1*((abs(Dp).^2 + X+ Y.^2)/ abs(D).^2);
-plot(deltap./10.^11, imag(chi1), '--', LineWidth=2.5, DisplayName='\Omega_d=8.0'); % Purple
+plot(deltap./10.^11, imag(chi1), '--', LineWidth=2.5, DisplayName='\Omega_d=6.0'); % Purple
 hold on;
 
 omega_d=11e11;
@@ -80,7 +80,7 @@ chi1=((-A.*Dp)./D);
 X=(abs(omega_c).^2)*(abs(Delta3 + 1i*g41/2).^2);
 Y=abs(omega_d)*abs(omega_c);
 chi3 =- l*chi1*((abs(Dp).^2 + X + Y.^2)/ abs(D).^2);
-plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=10.0', Color=[0 0.5 0]); % Green
+plot(deltap./10.^11, imag(chi1), LineWidth=2.5, DisplayName='\Omega_d=8.0', Color=[0 0.5 0]); % Green
 hold on;
 
 lgd = legend('show');
@@ -89,7 +89,7 @@ set(lgd, 'FontName', 'Garamond', 'FontSize', 24, 'FontWeight', 'bold', 'EdgeColo
 legend boxon;
 yticks([0, 0.25, 0.5, 0.75, 1]);
 set(gca, FontName='Garamond', FontSize=42, FontWeight='bold', XColor=[0 0 0], YColor=[0 0 0]);
-xlabel('\Delta_p', FontName='Garamond', FontSize=42, FontWeight='bold', Color=[0 0 0]);
+xlabel('\Delta_p/\gamma^{\prime}_{31}', FontName='Garamond', FontSize=42, FontWeight='bold', Color=[0 0 0]);
 ylabel('Im\chi^{(1)}', FontName='Garamond', FontSize=42, FontWeight='bold', Color=[0 0 0]);
 %title('\Delta_p vs Re\chi^{(1)}', FontName='Garamond', FontSize=27, FontWeight='bold');
 grid on;

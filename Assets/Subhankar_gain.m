@@ -27,7 +27,17 @@ G = real(g);  % Extract real part of gain
 
 % Create waterfall plot
 h = waterfall(p0, omega, G);
-xlabel('Power (W)');
-ylabel('Frequency (rad/s)');
-zlabel('Gain');
-title('Gain with 2nd, 3rd, and 4th Order Dispersion');
+
+h.LineWidth = 1.75;
+set(gca, 'FontName', 'Garamond', 'FontSize', 24, 'FontWeight', 'bold', XColor=[0 0 0], YColor=[0 0 0]);
+xlabel('P_0 (mW)', 'FontName', 'Garamond', 'FontSize', 24, Color=[0 0 0]);
+ylabel('\Omega (GHz)', 'FontName', 'Garamond', 'FontSize', 24, Color=[0 0 0]);
+zlabel('G (mm^{-1})', 'FontName', 'Garamond', 'FontSize', 24);
+%title('Waterfall Plot', 'FontName', 'Garamond', 'FontSize', 18);
+
+folder_path = "C:\Users\Ryuki\Downloads\PLOTS";
+file = fullfile(folder_path, 'Beta2_Kerr-Quintic.jpeg');
+fig = gcf;
+set(fig, 'Units', 'pixels');
+fig.Position = [100, 100, 1280, 720];  % [left, bottom, width, height]
+exportgraphics(fig, file, 'Resolution', 300);
