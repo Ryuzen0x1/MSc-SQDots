@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  19 APR 2025 00:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  19 APR 2025 01:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,81 +749,91 @@ Package caption Info: End \AtBeginDocument code.
 <Assets/Light Matter Interaction.jpeg, id=29, 2168.1pt x 1760.5775pt>
 File: Assets/Light Matter Interaction.jpeg Graphic file (type jpg)
 <use Assets/Light Matter Interaction.jpeg>
-Package pdftex.def Info: Assets/Light Matter Interaction.jpeg  used on input line 42.
+Package pdftex.def Info: Assets/Light Matter Interaction.jpeg  used on input line 40.
 (pdftex.def)             Requested size: 199.1693pt x 161.72256pt.
 
 
 [3
 
  <./Assets/Light Matter Interaction.jpeg>]
-<Assets/Y-type.png, id=35, 445.665pt x 337.26pt>
+<Assets/DoSvsE.PNG, id=35, 573.64313pt x 266.49562pt>
+File: Assets/DoSvsE.PNG Graphic file (type png)
+<use Assets/DoSvsE.PNG>
+Package pdftex.def Info: Assets/DoSvsE.PNG  used on input line 51.
+(pdftex.def)             Requested size: 298.75394pt x 138.79404pt.
+
+
+[4
+
+ <./Assets/DoSvsE.PNG>]
+<Assets/Y-type.png, id=43, 445.665pt x 337.26pt>
 File: Assets/Y-type.png Graphic file (type png)
 <use Assets/Y-type.png>
-Package pdftex.def Info: Assets/Y-type.png  used on input line 55.
+Package pdftex.def Info: Assets/Y-type.png  used on input line 64.
 (pdftex.def)             Requested size: 239.00558pt x 180.86716pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 55.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 64.
  (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
 
-[4
-
- <./Assets/Y-type.png>]
-<Assets/Img_chi1_Omega_d.jpeg, id=44, 3684.76625pt x 2078.76625pt>
-File: Assets/Img_chi1_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Img_chi1_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Img_chi1_Omega_d.jpeg  used on input line 79.
-(pdftex.def)             Requested size: 191.20082pt x 107.84589pt.
-<Assets/Real_chi1_Omega_d.jpeg, id=45, 3684.76625pt x 2078.76625pt>
-File: Assets/Real_chi1_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Real_chi1_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Real_chi1_Omega_d.jpeg  used on input line 79.
-(pdftex.def)             Requested size: 191.20082pt x 107.84589pt.
-
-
 [5
 
- <./Assets/Img_chi1_Omega_d.jpeg> <./Assets/Real_chi1_Omega_d.jpeg>]
-<Assets/Real_chi3_Omega_d.jpeg, id=55, 3684.76625pt x 2079.77pt>
-File: Assets/Real_chi3_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Real_chi3_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Real_chi3_Omega_d.jpeg  used on input line 91.
-(pdftex.def)             Requested size: 298.75394pt x 168.60643pt.
+ <./Assets/Y-type.png>]
+<Assets/Img_chi1_Omega_d.jpeg, id=57, 3684.76625pt x 2078.76625pt>
+File: Assets/Img_chi1_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Img_chi1_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Img_chi1_Omega_d.jpeg  used on input line 87.
+(pdftex.def)             Requested size: 191.20082pt x 107.84589pt.
+<Assets/Real_chi1_Omega_d.jpeg, id=58, 3684.76625pt x 2078.76625pt>
+File: Assets/Real_chi1_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Real_chi1_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Real_chi1_Omega_d.jpeg  used on input line 87.
+(pdftex.def)             Requested size: 191.20082pt x 107.84589pt.
 
 
 [6
 
- <./Assets/Real_chi3_Omega_d.jpeg>]
-<Assets/G_v_Power.jpeg, id=61, 3445.87375pt x 2095.83pt>
-File: Assets/G_v_Power.jpeg Graphic file (type jpg)
-<use Assets/G_v_Power.jpeg>
-Package pdftex.def Info: Assets/G_v_Power.jpeg  used on input line 102.
-(pdftex.def)             Requested size: 274.8546pt x 167.15814pt.
+ <./Assets/Img_chi1_Omega_d.jpeg> <./Assets/Real_chi1_Omega_d.jpeg>]
+<Assets/Real_chi3_Omega_d.jpeg, id=66, 3684.76625pt x 2079.77pt>
+File: Assets/Real_chi3_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Real_chi3_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Real_chi3_Omega_d.jpeg  used on input line 98.
+(pdftex.def)             Requested size: 298.75394pt x 168.60643pt.
 
 
 [7
 
- <./Assets/G_v_Power.jpeg>]
-<Assets/Beta2_Kerr.jpeg, id=68, 3538.21875pt x 1998.46625pt>
-File: Assets/Beta2_Kerr.jpeg Graphic file (type jpg)
-<use Assets/Beta2_Kerr.jpeg>
-Package pdftex.def Info: Assets/Beta2_Kerr.jpeg  used on input line 114.
-(pdftex.def)             Requested size: 318.67209pt x 179.97618pt.
+ <./Assets/Real_chi3_Omega_d.jpeg>]
+<Assets/G_v_Power.jpeg, id=73, 3445.87375pt x 2095.83pt>
+File: Assets/G_v_Power.jpeg Graphic file (type jpg)
+<use Assets/G_v_Power.jpeg>
+Package pdftex.def Info: Assets/G_v_Power.jpeg  used on input line 108.
+(pdftex.def)             Requested size: 274.8546pt x 167.15814pt.
 
 
 [8
 
- <./Assets/Beta2_Kerr.jpeg>]
+ <./Assets/G_v_Power.jpeg>]
+<Assets/Beta2_Kerr.jpeg, id=79, 3538.21875pt x 1998.46625pt>
+File: Assets/Beta2_Kerr.jpeg Graphic file (type jpg)
+<use Assets/Beta2_Kerr.jpeg>
+Package pdftex.def Info: Assets/Beta2_Kerr.jpeg  used on input line 119.
+(pdftex.def)             Requested size: 318.67209pt x 179.97618pt.
+
 
 [9
+
+ <./Assets/Beta2_Kerr.jpeg>]
+
+[10
 
 ]
 \tf@nav=\write6
@@ -844,18 +854,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23830 strings out of 475171
- 457997 string characters out of 5767095
- 818795 words of memory out of 5000000
- 46330 multiletter control sequences out of 15000+600000
+ 23841 strings out of 475171
+ 458199 string characters out of 5767095
+ 819798 words of memory out of 5000000
+ 46339 multiletter control sequences out of 15000+600000
  568655 words of font info for 71 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  128i,11n,123p,461b,718s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on presentation.pdf (9 pages, 2735629 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on presentation.pdf (10 pages, 2776282 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 20 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
+ 22 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -17,17 +17,15 @@
 
 \frame{\titlepage}
 
-% Slide 1: Overview
 \begin{frame}{Overview}
   \vspace{-3pt}
   \begin{itemize}
-    \item Motivation: Understanding Modulation Instability (MI) in SQDs.
-    \item Tools: Density matrix formalism, Maxwell-Bloch, NLSE\@.
+    \item Motivation: Understanding Modulation Instability (MI) in SQDs (Y-type excitation).
+    \item Tools: Density matrix formalism, NLSE\@.
     \item Focus: Interpretation of numerical plots \& physical insights.
   \end{itemize}
 \end{frame}
 
-%Slide 2: Light matter interaction
 \begin{frame}{Light Matter Interaction}
   \vspace{-20pt}
   \hspace*{55pt}
@@ -41,9 +39,19 @@
   \end{itemize}
 \end{frame}
 
-% Slide 3: Energy Level Scheme
+\begin{frame}{What are Semiconductor Quantum Dots}
+  \begin{itemize}
+    \item Tiny semiconductor nanocrystals (2--10 nm in size).
+    \item Exhibit size-dependent fluorescence, unique electronic properties, enhanced optical properties.
+    \item Intermediate properties between bulk semiconductors and discrete molecules.
+  \end{itemize}
+  \vspace{15pt}
+  \centering
+  \includegraphics[width=0.75\textwidth]{Assets/DoSvsE.PNG}
+\end{frame}
+
 \begin{frame}{Y-type Excitation Scheme in SQDs}
-  \vspace{-30pt}
+  \vspace{-20pt}
   \begin{figure}
     \includegraphics[width=0.6\textwidth]{Assets/Y-type.png}
   \end{figure}
@@ -51,12 +59,12 @@
   \begin{itemize}
     \item Probe field couples levels $|1\rangle \rightarrow |2\rangle$.
     \item Control fields modulate transitions $|2\rangle \rightarrow |3\rangle$, $|3\rangle \rightarrow |4\rangle$.
+    \item The interacting electric field inside QD is: \( \vec{E}=\sum_{j=p,c,b}\hat{e}_j E_j e^{i(k_j z-\omega_j t)} \)
   \end{itemize}
 \end{frame}
 
-% Slide 5: Re[\chi^{(1)}] vs Detuning - Ω_d variation
 \begin{frame}{Absorption \& Dispersion Spectra}
-  \vspace{-37pt}
+  \vspace{-22pt}
   \begin{figure}[h]
     \centering
     \begin{minipage}{0.48\textwidth}
@@ -78,9 +86,8 @@
   \end{itemize}
 \end{frame}
 
-% Slide 6: Re[\chi^{(3)}] vs Detuning
 \begin{frame}{Kerr Nonlinearity: Re $\chi^{(3)}$}
-  \vspace{-10pt}
+  \vspace{-4pt}
   \hspace*{36pt}
   \includegraphics[width=0.75\textwidth]{Assets/Real_chi3_Omega_d.jpeg}
   \begin{itemize}
@@ -90,7 +97,6 @@
   \end{itemize}
 \end{frame}
 
-% Slide 7: MI Gain Spectrum vs Frequency
 \begin{frame}{Modulation Instability Gain}
   \hspace*{40pt}
   \includegraphics[width=0.69\textwidth]{Assets/G_v_Power.jpeg}
@@ -101,7 +107,6 @@
   \end{itemize}
 \end{frame}
 
-% Slide 8: 3D MI Gain Spectrum (G vs P0, \Omega)
 \begin{frame}{MI Gain}
   \vspace{-12pt}
   \hspace*{32pt}
@@ -113,7 +118,6 @@
   \end{itemize}
 \end{frame}
 
-% Slide 10: Conclusion & Applications
 \begin{frame}{Conclusion \& Applications}
   \begin{itemize}
     \item SQDs exhibit tunable nonlinearity through coherent control.
