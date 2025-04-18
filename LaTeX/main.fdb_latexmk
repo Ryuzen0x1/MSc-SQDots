@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1744911999.47368 "main.aux" "main.bbl" "main" 1744912000.86733 0
+["bibtex main"] 1744951713.93532 "main.aux" "main.bbl" "main" 1744951951.66643 0
   "./citations.bib" 1744911645.41483 6065 4cbd12ea5f4efd91f31aa275f5c0148b ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1742685315 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1744912000.59203 8001 0d41d2000aa52c8b91848a3deb03ba6c "pdflatex"
+  "main.aux" 1744951951.38587 8350 21b58a8fc1d786f2120d1549c184c8b4 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1744911999.56563 "/home/ryuki/Documents/LaTeX-Projects/SQDots-PR/main.tex" "main.pdf" "main" 1744912000.86767 0
-  "/home/ryuki/Documents/LaTeX-Projects/SQDots-PR/main.tex" 1744911869.94385 41456 df39e4f7782e3d8f5fd8a4d55394264e ""
+["pdflatex"] 1744951950.27735 "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" "main.pdf" "main" 1744951951.66675 0
+  "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" 1744951949.99987 45985 8750e95c7cbddec1b44430043902b543 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1742685315 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
@@ -122,17 +122,18 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1744911295 2008242 ee205dbf03c5a48c390e5011522a45f3 ""
   "Plots/Beta2_Kerr.jpeg" 1744888668 755566 90974e6fe4c63ec28a039709cfcd88fd ""
   "Plots/Beta4_Kerr.jpeg" 1744888668 946993 63a56ea92c2efb40cf833ccef65ef53f ""
+  "Plots/G_v_Power.jpeg" 1744888668 361276 a4349ee41ea70bd48f108438b79a0956 ""
   "Plots/Img_chi1_Omega_c.jpeg" 1744888668 474455 e5cf7df403acc74962b14ce9fcf8740d ""
   "Plots/Img_chi1_Omega_d.jpeg" 1744888668 446986 53db2759472523c3f7f683f643abb43c ""
   "Plots/Real_chi1_Omega_c.jpeg" 1744888668 454023 9abd8c20161874aedba38da95161fde6 ""
   "Plots/Real_chi1_Omega_d.jpeg" 1744888668 472518 733bf3fda52becd0ba5f342d5acb5d24 ""
   "Plots/Real_chi3_Omega_c.jpeg" 1744888668 396259 b3a61ed300b4b00f223b119ba862567e ""
   "Plots/Real_chi3_Omega_d.jpeg" 1744888668 440079 c3ca413e0e779a8c2093fda67c13059f ""
-  "main.aux" 1744912000.59203 8001 0d41d2000aa52c8b91848a3deb03ba6c "pdflatex"
-  "main.bbl" 1744911999.559 5095 919bc06d02297f1ca3527121a4efafd9 "bibtex main"
-  "main.out" 1744912000.59281 2400 5577c52e15f59b3a66a73dbcb116626a "pdflatex"
-  "main.tex" 1744911869.94385 41456 df39e4f7782e3d8f5fd8a4d55394264e ""
-  "main.toc" 1744912000.59381 1060 f32a796d6b0d64457e3fb97883da9a03 "pdflatex"
+  "main.aux" 1744951951.38587 8350 21b58a8fc1d786f2120d1549c184c8b4 "pdflatex"
+  "main.bbl" 1744951713.97689 5095 919bc06d02297f1ca3527121a4efafd9 "bibtex main"
+  "main.out" 1744951951.38787 2707 84db8de3b00227e85ef7c965db016cdc "pdflatex"
+  "main.tex" 1744951949.99987 45985 8750e95c7cbddec1b44430043902b543 ""
+  "main.toc" 1744951951.38787 1219 409cbb1dccddc3bb388eb0b684d4732a "pdflatex"
   "pictures/DoSvsE.PNG" 1744911675.27201 17919 598c0a32111074dfaece63da4ca411a0 ""
   "pictures/Y-type.png" 1744911699.97383 14427 917dda80661432c531472c70bf5c52ef ""
   "pictures/rkmlogo.png" 1744911691.63685 96128 31c581af936879c19892de97487fc01e ""

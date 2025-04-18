@@ -1,7 +1,7 @@
-PWD /home/ryuki/Documents/LaTeX-Projects/SQDots-PR
+PWD /home/ryuki/Documents/MSc-Project/LaTeX
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/ryuki/Documents/LaTeX-Projects/SQDots-PR/main.tex
+INPUT /home/ryuki/Documents/MSc-Project/LaTeX/main.tex
 OUTPUT main.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
@@ -268,6 +268,14 @@ INPUT ./Plots/Real_chi3_Omega_d.jpeg
 INPUT ./Plots/Real_chi3_Omega_d.jpeg
 INPUT ./Plots/Real_chi3_Omega_d.jpeg
 INPUT ./Plots/Real_chi3_Omega_d.jpeg
+INPUT ./Plots/G_v_Power.jpeg
+INPUT ./Plots/G_v_Power.jpeg
+INPUT ./Plots/G_v_Power.jpeg
+INPUT ./Plots/G_v_Power.jpeg
+INPUT ./Plots/G_v_Power.jpeg
+INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
+INPUT /usr/share/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
+INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
 INPUT ./Plots/Beta2_Kerr.jpeg
 INPUT ./Plots/Beta2_Kerr.jpeg
 INPUT ./Plots/Beta2_Kerr.jpeg
@@ -281,9 +289,6 @@ INPUT ./Plots/Beta4_Kerr.jpeg
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchri8t.tfm
-INPUT /usr/share/texmf-dist/fonts/vf/bitstrea/charter/bchri8t.vf
-INPUT /usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchri8r.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  17 APR 2025 23:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  18 APR 2025 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/ryuki/Documents/LaTeX-Projects/SQDots-PR/main.tex
-(/home/ryuki/Documents/LaTeX-Projects/SQDots-PR/main.tex
+**/home/ryuki/Documents/MSc-Project/LaTeX/main.tex
+(/home/ryuki/Documents/MSc-Project/LaTeX/main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -332,9 +332,6 @@ File: t1bch.fd 2004/10/18 font definitions for T1/bch.
 
 LaTeX Warning: Label `fig:omegac' multiply defined.
 
-
-LaTeX Warning: Label `fig:omegac' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -417,7 +414,7 @@ Package hyperref Info: Link coloring ON on input line 22.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<pictures/rkmlogo.png, id=52, 301.125pt x 301.125pt>
+<pictures/rkmlogo.png, id=60, 301.125pt x 301.125pt>
 File: pictures/rkmlogo.png Graphic file (type png)
 <use pictures/rkmlogo.png>
 Package pdftex.def Info: pictures/rkmlogo.png  used on input line 46.
@@ -438,7 +435,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.51 
       [1]
-<./pictures/DoSvsE.png, id=87, 573.64313pt x 266.49562pt>
+<./pictures/DoSvsE.png, id=97, 573.64313pt x 266.49562pt>
 File: ./pictures/DoSvsE.png Graphic file (type png)
 <use ./pictures/DoSvsE.png>
 Package pdftex.def Info: ./pictures/DoSvsE.png  used on input line 65.
@@ -452,7 +449,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [2]
 
 [3 <./pictures/DoSvsE.PNG>]
-<pictures/Y-type.png, id=125, 445.665pt x 337.26pt>
+<pictures/Y-type.png, id=135, 445.665pt x 337.26pt>
 File: pictures/Y-type.png Graphic file (type png)
 <use pictures/Y-type.png>
 Package pdftex.def Info: pictures/Y-type.png  used on input line 88.
@@ -468,12 +465,12 @@ Package pdftex.def Info: pictures/Y-type.png  used on input line 88.
 [7]
 
 [8]
-<Plots/Img_chi1_Omega_d.jpeg, id=207, 3684.76625pt x 2078.76625pt>
+<Plots/Img_chi1_Omega_d.jpeg, id=217, 3684.76625pt x 2078.76625pt>
 File: Plots/Img_chi1_Omega_d.jpeg Graphic file (type jpg)
 <use Plots/Img_chi1_Omega_d.jpeg>
 Package pdftex.def Info: Plots/Img_chi1_Omega_d.jpeg  used on input line 269.
 (pdftex.def)             Requested size: 232.17242pt x 130.9693pt.
-<Plots/Real_chi1_Omega_d.jpeg, id=208, 3684.76625pt x 2078.76625pt>
+<Plots/Real_chi1_Omega_d.jpeg, id=218, 3684.76625pt x 2078.76625pt>
 File: Plots/Real_chi1_Omega_d.jpeg Graphic file (type jpg)
 <use Plots/Real_chi1_Omega_d.jpeg>
 Package pdftex.def Info: Plots/Real_chi1_Omega_d.jpeg  used on input line 275.
@@ -481,12 +478,12 @@ Package pdftex.def Info: Plots/Real_chi1_Omega_d.jpeg  used on input line 275.
 
 
 [9 <./Plots/Img_chi1_Omega_d.jpeg> <./Plots/Real_chi1_Omega_d.jpeg>]
-<Plots/Img_chi1_Omega_c.jpeg, id=218, 3684.76625pt x 2078.76625pt>
+<Plots/Img_chi1_Omega_c.jpeg, id=228, 3684.76625pt x 2078.76625pt>
 File: Plots/Img_chi1_Omega_c.jpeg Graphic file (type jpg)
 <use Plots/Img_chi1_Omega_c.jpeg>
 Package pdftex.def Info: Plots/Img_chi1_Omega_c.jpeg  used on input line 288.
 (pdftex.def)             Requested size: 232.17242pt x 130.9693pt.
-<Plots/Real_chi1_Omega_c.jpeg, id=219, 3684.76625pt x 2078.76625pt>
+<Plots/Real_chi1_Omega_c.jpeg, id=229, 3684.76625pt x 2078.76625pt>
 File: Plots/Real_chi1_Omega_c.jpeg Graphic file (type jpg)
 <use Plots/Real_chi1_Omega_c.jpeg>
 Package pdftex.def Info: Plots/Real_chi1_Omega_c.jpeg  used on input line 294.
@@ -506,12 +503,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 309.
 
-<Plots/Real_chi3_Omega_c.jpeg, id=225, 3616.51125pt x 2079.77pt>
+<Plots/Real_chi3_Omega_c.jpeg, id=235, 3616.51125pt x 2079.77pt>
 File: Plots/Real_chi3_Omega_c.jpeg Graphic file (type jpg)
 <use Plots/Real_chi3_Omega_c.jpeg>
 Package pdftex.def Info: Plots/Real_chi3_Omega_c.jpeg  used on input line 315.
 (pdftex.def)             Requested size: 232.17242pt x 133.50786pt.
-<Plots/Real_chi3_Omega_d.jpeg, id=226, 3684.76625pt x 2079.77pt>
+<Plots/Real_chi3_Omega_d.jpeg, id=236, 3684.76625pt x 2079.77pt>
 File: Plots/Real_chi3_Omega_d.jpeg Graphic file (type jpg)
 <use Plots/Real_chi3_Omega_d.jpeg>
 Package pdftex.def Info: Plots/Real_chi3_Omega_d.jpeg  used on input line 321.
@@ -519,72 +516,33 @@ Package pdftex.def Info: Plots/Real_chi3_Omega_d.jpeg  used on input line 321.
 
 
 [11 <./Plots/Real_chi3_Omega_c.jpeg> <./Plots/Real_chi3_Omega_d.jpeg>]
-<Plots/Beta2_Kerr.jpeg, id=232, 3538.21875pt x 1998.46625pt>
+
+[12]
+<Plots/G_v_Power.jpeg, id=257, 3445.87375pt x 2095.83pt>
+File: Plots/G_v_Power.jpeg Graphic file (type jpg)
+<use Plots/G_v_Power.jpeg>
+Package pdftex.def Info: Plots/G_v_Power.jpeg  used on input line 390.
+(pdftex.def)             Requested size: 338.58632pt x 205.9176pt.
+
+
+[13 <./Plots/G_v_Power.jpeg>]
+<Plots/Beta2_Kerr.jpeg, id=265, 3538.21875pt x 1998.46625pt>
 File: Plots/Beta2_Kerr.jpeg Graphic file (type jpg)
 <use Plots/Beta2_Kerr.jpeg>
-Package pdftex.def Info: Plots/Beta2_Kerr.jpeg  used on input line 395.
+Package pdftex.def Info: Plots/Beta2_Kerr.jpeg  used on input line 411.
 (pdftex.def)             Requested size: 232.17242pt x 131.12462pt.
-<Plots/Beta4_Kerr.jpeg, id=233, 3679.7475pt x 1997.4625pt>
+<Plots/Beta4_Kerr.jpeg, id=266, 3679.7475pt x 1997.4625pt>
 File: Plots/Beta4_Kerr.jpeg Graphic file (type jpg)
 <use Plots/Beta4_Kerr.jpeg>
-Package pdftex.def Info: Plots/Beta4_Kerr.jpeg  used on input line 401.
+Package pdftex.def Info: Plots/Beta4_Kerr.jpeg  used on input line 417.
 (pdftex.def)             Requested size: 232.17242pt x 125.99928pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[14 <./Plots/Beta2_Kerr.jpeg> <./Plots/Beta4_Kerr.jpeg>]
 
+[15] (./main.bbl)
 
-
-[12
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              
-pdfTeX warning (ext4): destination with the same identifier (name{equation.48}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 \newpage
-              ]
-
-[13 <./Plots/Beta2_Kerr.jpeg> <./Plots/Beta4_Kerr.jpeg>] (./main.bbl)
-
-[14] (./main.aux)
+[16] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
@@ -594,21 +552,21 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5577C52E15F59B3A66A73DBCB116626A;2400.
+(rerunfilecheck)             Checksum: 84DB8DE3B00227E85EF7C965DB016CDC;2707.
  ) 
 Here is how much of TeX's memory you used:
- 13331 strings out of 475171
- 211328 string characters out of 5767095
- 634490 words of memory out of 5000000
- 36042 multiletter control sequences out of 15000+600000
+ 13347 strings out of 475171
+ 211646 string characters out of 5767095
+ 634825 words of memory out of 5000000
+ 36053 multiletter control sequences out of 15000+600000
  609738 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,14n,79p,2672b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,14n,79p,2665b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/share/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (15 pages, 4734645 bytes).
+Output written on main.pdf (17 pages, 5102937 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 303 compressed objects within 4 object streams
- 111 named destinations out of 1000 (max. 500000)
- 152 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 390 PDF objects out of 1000 (max. 8388607)
+ 324 compressed objects within 4 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 

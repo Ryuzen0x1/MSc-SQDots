@@ -9,4 +9,6 @@
 \contentsline {section}{\numberline {7}Linear and Non-linear Susceptibilities}{9}{section.7}%
 \contentsline {section}{\numberline {8}Dispersion Spectra for \(\chi ^{(3)}\) }{11}{section.8}%
 \contentsline {section}{\numberline {9}Modulation instability of Probe Field}{12}{section.9}%
-\contentsline {section}{\numberline {10}Gain Variation w.r.t Frequency for Kerr}{12}{section.10}%
+\contentsline {section}{\numberline {10}Gain Variation w.r.t Frequency}{13}{section.10}%
+\contentsline {section}{\numberline {11}Variation of Gain to Power and Frequency}{14}{section.11}%
+\contentsline {section}{\numberline {12}Conclusion}{14}{section.12}%
