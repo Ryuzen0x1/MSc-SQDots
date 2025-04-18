@@ -1,0 +1,1 @@
+Intro-QD --> Plots [Explain: 2D-->1D-->0D] --> Origin --> Processes(MI) --> Importance in SQDs --> Hamiltonian(L-M Interaction) --> Linear & Non Susceptibility Expression --> Plots explain --> NLSE --> MI perturbes analysis: GAIN Expression(Plots) and explain --> Conclusion.
