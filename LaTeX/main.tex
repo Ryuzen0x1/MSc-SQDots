@@ -16,12 +16,15 @@
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{subcaption}
 \usepackage{parskip}
+\usepackage{setspace}
 
 \setlength{\parskip}{5pt}
+\onehalfspacing
 
 \begin{document}
 \begin{titlepage}
-\title{Modulation Instability in Semiconductor Quantum Dots}
+\title{Modulation Instability in Semiconductor Quantum Dots\\[0.2em]
+    \textit{(Y-type Excitation Scheme)}}
 \author{
     \textit{Submitted by,}\\
     {Shaon Samanta}\\
@@ -63,7 +66,7 @@ Semiconductor quantum dots are tiny particles or nanocrystals of a semiconductin
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.6\linewidth]{./pictures/DoSvsE.png}
-    \caption{Density of States vs Energy of materials}
+    \caption{Density of states vs energy of materials}
     \label{fig:DoS vs Energy of materials}
 \end{figure}
 
@@ -110,12 +113,12 @@ and,
 \end{align}.
 Here, \(\hat{H}_0\) represents the unperturbed Hamiltonian of the system in the absence of applied fields, and \(\hat{H}_{int}\) describes the interaction of the electrons in the semiconductor quantum dots with the electromagnetic fields. Due to the closed-loop configuration, the properties of the SQDs are quite sensitive to the phases of the applied fields. These phases are incorporated into the inter-subband transition Rabi frequencies of the probe \((\Omega_p)\), control fields \(\Omega_c\), \(\Omega_b\) and coupling field \(\Omega_d\) defined as:
 \begin{align}
-    \Omega_p &=|\Omega_p|e^{-i\phi_p}=\frac{\mu_{21}\hat{e}_p E_p}{\hbar}e^{-i\phi_p},\\
-    \Omega_c &=|\Omega_c|e^{-i\phi_c}=\frac{\mu_{32}\hat{e}_c E_c}{\hbar}e^{-i\phi_c},\\
-    \Omega_b &=|\Omega_b|e^{-i\phi_b}=\frac{\mu_{43}\hat{e}_b E_b}{\hbar}e^{-i\phi_b},\\
-    \Omega_d &=|\Omega_d|e^{-i\phi_d}=\frac{\mu_{42}\hat{e}_d E_d}{\hbar}e^{-i\phi_d},
+    \Omega_p &=|\Omega_p|=\frac{\mu_{21}\hat{e}_p E_p}{\hbar},\\
+    \Omega_c &=|\Omega_c|=\frac{\mu_{32}\hat{e}_c E_c}{\hbar},\\
+    \Omega_b &=|\Omega_b|=\frac{\mu_{43}\hat{e}_b E_b}{\hbar},\\
+    \Omega_d &=|\Omega_d|=\frac{\mu_{42}\hat{e}_d E_d}{\hbar},
 \end{align}
-here, \(\mu_{mn}=e\langle m|\hat{z}|n\rangle\) is the electronic dipole moment matrix element between transitions \(|m\rangle\leftrightarrow |n\rangle\), and \(\phi_m\) \((m = p,\ c,\ b,\ d)\) are the absolute phases of the applied field \(E_j\).
+here, \(\mu_{mn}=e\langle m|\hat{z}|n\rangle\) is the electronic dipole moment matrix element between transitions \(|m\rangle\leftrightarrow |n\rangle\).
 
 \subsection{Density Matrix Formalism}
 To study the light-matter interaction phenomena occurring in the QD system, we use the density matrix formalism \cite{BOYD2008135}:
@@ -126,8 +129,9 @@ where \(\rho_{ij}\) is the \(ij^{\text{th}}\) density matrix element. The first 
 \begin{equation}
     \Gamma_{im} = \langle i|\Gamma|m\rangle = \gamma_i\delta_{im},
 \end{equation}
-where $\gamma_i$ represents the population decay rate of the $i^{\text{th}}$ energy level.\par
-So from the Maxwell’s Bloch equation for the density matrix elements we can write:
+where $\gamma_i$ represents the population decay rate of the $i^{\text{th}}$ energy level.
+
+So from the Maxwell's Bloch equation for the density matrix elements we can write:
 \begin{equation}
     \frac{\partial\tilde\rho_{21}}{\partial t} = i\big(\Delta_p+i\frac{\gamma_{21}}{2}\big)\tilde{\rho}_{21}+i\Omega_c^*\tilde{\rho}_{31}+i\Omega_d^*\tilde{\rho}_{41}+i\big(\tilde{\rho}_{11}-\tilde{\rho}_{22}\big)\Omega_p,
 \end{equation}
@@ -146,11 +150,11 @@ where $\Delta_j{(j=p,\ c,\ b,\ d)}$ is the detuning frequency of the correspondi
 \end{align}
 respectively. The population conservation condition \(\sum_{i=1}^{4} \tilde\rho_{ii} = 1\), together with $\rho_{mj} = \rho_{jm}^*{(m,\ j=1,2,3,4)}$ ${(;m\neq j)}$, supplements the above equation. Moreover, we have used the following transformations:
 \begin{align}
-    \rho_{21} &= \tilde\rho_{21}e^{i\phi_p}e^{-i(k_p z-\omega_p t)},\\
-    \rho_{31} &= \tilde\rho_{31}e^{-i(\phi_p+\phi_c)}e^{i(k_p z-\omega_p t)}e^{-i(k_c z-\omega_c t)},\\
-    \rho_{41} &= \tilde\rho_{41}e^{-i(\phi_p+\phi_d)}e^{-i(k_p z-\omega_p t)}e^{-i(k_d z-\omega_d t)},\\
-    \rho_{32} &= \tilde\rho_{32}e^{-i\phi_c}e^{-i(k_c z-\omega_c t)},\\
-    \rho_{43} &= \tilde\rho_{43}e^{-i\phi_b}e^{-i(k_b z-\omega_b t)},
+    \rho_{21} &= \tilde\rho_{21}e^{-i(k_p z-\omega_p t)},\\
+    \rho_{31} &= \tilde\rho_{31}e^{i(k_p z-\omega_p t)}e^{-i(k_c z-\omega_c t)},\\
+    \rho_{41} &= \tilde\rho_{41}e^{-i(k_p z-\omega_p t)}e^{-i(k_d z-\omega_d t)},\\
+    \rho_{32} &= \tilde\rho_{32}e^{-i(k_c z-\omega_c t)},\\
+    \rho_{43} &= \tilde\rho_{43}e^{-i(k_b z-\omega_b t)},
 \end{align}.
 In semiconductor QDs, $\gamma_{jl} = \gamma^{dph}_{jl}{(j=2-4)}$ signifies that total population decay rate from the energy subband $|j\rangle$, which cocsists of a population decay rate  due to inelastic "Low Order" phonon emission at low temperature and a dephasing term $\left(\gamma^{dph}_{jl}\right)$ originates not only from electron-electron and electron-proton scattering.\par
 In the steady state we assume that all the electrons will initially occupy the ground state that is,i.e., $\tilde\rho_{11} = 1, \tilde\rho_{ii}{(i=2,3,4)}=0$ at t=0. Under the limit of weak probe field approximation, we may also assume that probe field also sufficiently weak in comparison to control fields[i.e., $\Omega_p \ll \Omega_c,\Omega_b$; Therefore we will introduce the perturbative expansion $\tilde\rho_{ij} = \sum\limits_{k} \tilde\rho^{(k)}_{ij}$, where $\tilde\rho^{(k)}_{ij}$ is the \(k^{\text{th}}\)-order perturbation of ${\tilde\rho}_{ij}$. From the regime of adibatic formulation,it can be easily shown that ${{\tilde\rho}^{(0)}}_{ij}=\delta_{ij}(i\neq j)$, ${{\tilde\rho}^{(0)}}_{ii}(i=2,3,4)\simeq0$,and$\tilde\rho_{j1}\simeq{{\tilde\rho}^{(1)}}_{j1}{{\tilde\rho}^{(0)}}_{11}$ (j=2,3,4).Note that $\tilde\rho_{11}$ is the population density matrix element,while $\tilde\rho_{ij}$ is the optical response to the probe field for transition $|i\rangle$ $\rightarrow$ $|j\rangle$.Therefore the population conservation condition is valid for the zeroth order in the perturbative expansion and not valid for higher order terms, i.e., \({{\tilde\rho}^{(0)}}_{11}+{{\tilde\rho}^{(0)}}_{22}+{{\tilde\rho}^{(0)}}_{33}+{{\tilde\rho}^{(0)}}_{44}=1\). So equations- (11)-(13) reduces to:
@@ -195,7 +199,7 @@ where \(NLT\) is:
 \end{equation}
 where \(\kappa=\frac{N\vert\mu_p\vert^2}{2\hbar\epsilon_0c}\omega_p\), The total induced polarization P on the probe frequency \(\omega_p\) is \({P}(\omega_p)=\epsilon_0\chi_p\vert E_p\vert=N\mu_p\tilde\rho_{21}\),where the susceptibility \(\chi_p\) at the probe frequency \(\omega_p\) can be written as the sum of linear and nonlinear terms as:
 \begin{equation}
-    \chi_p(\omega_p,\ \Phi)=\chi^{(1)}(\Phi)+\chi^{(3)}(\Phi)\vert E_p\vert^2+...\ ,
+    \chi_p(\omega_p,\ \Phi)=\chi^{(1)}(\Phi)+\chi^{(3)}(\Phi)\vert E_p\vert^2+\cdots \ ,
 \end{equation}.
 So, using equations (32), (33) we can get \(\chi^{(1)}=\frac{N\mu_p\tilde\rho_{21}}{\epsilon_0E_p}=-\frac{2\kappa cD_p}{\omega_p D(0)}\). Similarly we get the \(\chi^{(3)}\) and \(\chi^{(5)}\).
 As written above, 
@@ -305,8 +309,6 @@ From Fig.2(a) we notice that absorption window is created at $\Omega_{c}=0$ when
 The influence of the first control field Rabi frequency $\Omega_c$ on the linear susceptibility $\chi^{(1)}$ reveals significant insights into the coherent dynamics of the atomic system. As shown in the real part of the susceptibility, $\mathrm{Re}[\chi^{(1)}]$, an increase in $\Omega_c$ leads to a clear dispersive splitting near the probe detuning $\Delta_p = 0$. At low $\Omega_c$, the dispersion remains broad and relatively featureless, but as $\Omega_c$ is increased, sharp dispersion profiles emerge, with zero crossings shifting symmetrically outward from the origin. This behavior reflects the dressing of atomic levels due to the strong coupling field, where the energy eigenstates of the system split, and their interference leads to pronounced refractive index modulation. Such steep dispersion features are particularly relevant for applications in slow light and enhanced nonlinear optics, where the group velocity and susceptibility gradient play a pivotal role.
 
 In parallel, the imaginary part $\mathrm{Im}[\chi^{(1)}]$, which governs absorption, displays a transition from a single absorption peak at low $\Omega_c$ to a pronounced transparency window as $\Omega_c$ increases. This transparency---centered at $\Delta_p = 0$---emerges from destructive quantum interference between excitation pathways, a hallmark of Electromagnetically Induced Transparency (EIT). As $\Omega_c$ becomes large, the absorption profile evolves into a doublet structure with peaks at detunings proportional to $\Omega_c$. This play of EIT, modulated by the control field strength, offers a tunable platform for manipulating light--matter interactions, thereby enabling dynamic control over absorption and dispersion in multi-level atomic media.
-
-\section{Dispersion Spectra for \(\chi^{(3)}\) }
 
 \begin{figure}[h]
   \centering
