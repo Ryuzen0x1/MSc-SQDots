@@ -1,7 +1,11 @@
-\documentclass{beamer}
+\documentclass[12pt,aspectratio=1610]{beamer}
 \usetheme{Copenhagen}
-%\usecolortheme{beaver}
+\usecolortheme{seahorse}
+\usepackage{amsmath,amssymb,mathtools}
+\usepackage{caption}
 \usepackage{subcaption}
+\setbeamertemplate{footline}{}
+\setbeamertemplate{navigation symbols}{}
 
 \title{Modulation Instability in Semiconductor Quantum Dots}
 \subtitle{Y-type Excitation Scheme: Interpretation of Plots and Experimental Implications}
@@ -25,7 +29,16 @@
 
 %Slide 2: Light matter interaction
 \begin{frame}{Light Matter Interaction}
-  
+  \vspace{-20pt}
+  \hspace*{55pt}
+  \begin{figure}
+    \includegraphics[width=0.5\textwidth]{Assets/Light Matter Interaction.jpeg}
+  \end{figure}
+  \begin{itemize}
+    \item Quantum dots confine charge carriers in all three dimensions.
+    \item Enhanced interaction with electromagnetic fields due to confinement.
+    \item Leads to strong nonlinear effects: Kerr nonlinearity, EIT, and MI\@.
+  \end{itemize}
 \end{frame}
 
 % Slide 3: Energy Level Scheme
@@ -36,31 +49,13 @@
   \end{figure}
   \vspace{-12pt}
   \begin{itemize}
-    \item We take Y-type 4-level excitation scheme.
+    \item Probe field couples levels $|1\rangle \rightarrow |2\rangle$.
+    \item Control fields modulate transitions $|2\rangle \rightarrow |3\rangle$, $|3\rangle \rightarrow |4\rangle$.
   \end{itemize}
 \end{frame}
 
-% Slide 4: Im[\chi^{(1)}] vs Detuning - Ω_d variation
-\begin{frame}{Absorption Spectra: $\Omega_c$ \& $\Omega_d$}
-  \vspace{-60pt}
-  \begin{figure}[h]
-    \centering
-    \begin{minipage}{0.46\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Assets/Img_chi1_Omega_c.jpeg}
-      \subcaption{}
-    \end{minipage}
-    \hfill
-    \begin{minipage}{0.46\textwidth}
-      \centering
-      \includegraphics[width=\linewidth]{Assets/Real_chi1_Omega_c.jpeg}
-      \subcaption{}
-    \end{minipage}\label{fig:chi1_c}
-   \end{figure}
-\end{frame}
-
 % Slide 5: Re[\chi^{(1)}] vs Detuning - Ω_d variation
-\begin{frame}{Dispersion Spectra: $\Omega_c$ \& $\Omega_d$}
+\begin{frame}{Absorption \& Dispersion Spectra}
   \vspace{-37pt}
   \begin{figure}[h]
     \centering
@@ -75,50 +70,57 @@
       \includegraphics[width=\linewidth]{Assets/Real_chi1_Omega_d.jpeg}
       \subcaption{}
     \end{minipage}\label{fig:chi1_d}
-   \end{figure}\begin{itemize}
-    \item $\Omega_c$ controls slope \& zero-crossings.
-    \item Enables slow/fast light applications.
+   \end{figure}
+   \begin{itemize}
+    \item $\Omega_d$ modifies absorption: transparency windows form.
+    \item Side peaks grow $\Rightarrow$ indicative of coherent interference.
+    \item Re $\chi^{(1)}$ slope changes $\Rightarrow$ group velocity control.
   \end{itemize}
 \end{frame}
 
 % Slide 6: Re[\chi^{(3)}] vs Detuning
 \begin{frame}{Kerr Nonlinearity: Re $\chi^{(3)}$}
-  \vspace{-17pt}
-  \hspace*{27pt}
+  \vspace{-10pt}
+  \hspace*{36pt}
   \includegraphics[width=0.75\textwidth]{Assets/Real_chi3_Omega_d.jpeg}
   \begin{itemize}
-    \item Strong $\Omega_c$ \& $\Omega_d$ amplify Kerr response.
-    \item Enhanced four-wave mixing \& optical switching.
+    \item $\Omega_c$, $\Omega_d$ enhance Kerr nonlinearity.
+    \item Enables efficient four-wave mixing and phase modulation.
+    \item $\chi^{(3)}$ control $\Rightarrow$ quantum gates, optical switches.
   \end{itemize}
 \end{frame}
 
 % Slide 7: MI Gain Spectrum vs Frequency
 \begin{frame}{Modulation Instability Gain}
-  \hspace*{30pt}
-  \includegraphics[width=0.75\textwidth]{Assets/G_v_Power.jpeg}
+  \hspace*{40pt}
+  \includegraphics[width=0.69\textwidth]{Assets/G_v_Power.jpeg}
   \begin{itemize}
-    \item Peak gain shifts \& increases with CW power.
-    \item Symmetric sidebands from four-wave mixing.
+    \item MI gain shows symmetric sidebands $\Rightarrow$ phase matching.
+    \item Gain increases with laser power.
+    \item Peaks shift outward with higher nonlinear refractive index.
   \end{itemize}
 \end{frame}
 
 % Slide 8: 3D MI Gain Spectrum (G vs P0, \Omega)
 \begin{frame}{MI Gain}
-  \vspace{-22pt}
+  \vspace{-12pt}
   \hspace*{32pt}
   \includegraphics[width=0.8\textwidth]{Assets/Beta2_Kerr.jpeg}
   \begin{itemize}
-    \item MI threshold: $P_0$ $\gtrsim 5\ mW$.
-    \item Fourth-order dispersion broadens bandwidth.
+    \item Threshold at $P_0$ $\approx 5\ mW$.
+    \item Fourth-order dispersion ($\beta_4$) broadens bandwidth.
+    \item Application: broadband supercontinuum generation.
   \end{itemize}
 \end{frame}
 
-% Slide 9: Conclusion & Applications
+% Slide 10: Conclusion & Applications
 \begin{frame}{Conclusion \& Applications}
   \begin{itemize}
-    \item Strong nonlinearities allow tunable MI gain.
-    \item Control via Rabi frequencies \& detunings.
-    \item Applications: quantum communication, slow light, optical logic.
+    \item SQDs exhibit tunable nonlinearity through coherent control.
+    \item Applications:
+    \item Quantum memory and communication
+    \item Slow light and optical buffers
+    \item Frequency combs and all-optical logic
   \end{itemize}
 \end{frame}
 
