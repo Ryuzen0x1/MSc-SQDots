@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  18 APR 2025 21:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.4.17)  18 APR 2025 22:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -534,7 +534,7 @@ Package: amsthm 2020/05/29 v2.20.6
 ) (/usr/share/texmf-dist/tex/latex/beamer/beamerbasethemes.sty)) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemedefault.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen293
 \beamer@dimb=\dimen294
-) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeCambridgeUS.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemebeaver.sty)) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty))) (/usr/share/texmf-dist/tex/latex/beamer/beamerthemeCopenhagen.sty (/usr/share/texmf-dist/tex/latex/beamer/beamerouterthemesplit.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamerinnerthemerounded.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty) (/usr/share/texmf-dist/tex/latex/beamer/beamercolorthemeorchid.sty)) (/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
  (/usr/share/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
@@ -596,14 +596,14 @@ LaTeX Font Info:    ... okay on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(10.95003pt, 342.2953pt, 10.95003pt)
+* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
 * v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
 * \paperwidth=364.19536pt
 * \paperheight=273.14662pt
-* \textwidth=342.2953pt
+* \textwidth=307.28987pt
 * \textheight=244.6939pt
-* \oddsidemargin=-61.31996pt
-* \evensidemargin=-61.31996pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
 * \headheight=14.22636pt
 * \headsep=0.0pt
@@ -711,187 +711,102 @@ Dictionary: translator-theorem-dictionary, Language: English
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (./presentation.nav)
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 12--12
- [][][][]  
- []
-
-
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 14--14
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 24--24
- [][][][]  
- []
-
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [2
 
 ]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 35--35
- [][][][]  
- []
-
-<Assets/Y-type.png, id=89, 445.665pt x 337.26pt>
-File: Assets/Y-type.png Graphic file (type png)
-<use Assets/Y-type.png>
-Package pdftex.def Info: Assets/Y-type.png  used on input line 35.
-(pdftex.def)             Requested size: 205.37926pt x 155.42451pt.
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [3
 
- <./Assets/Y-type.png>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 54--54
- [][][][]  
- []
+]
+<Assets/Y-type.png, id=104, 445.665pt x 337.26pt>
+File: Assets/Y-type.png Graphic file (type png)
+<use Assets/Y-type.png>
+Package pdftex.def Info: Assets/Y-type.png  used on input line 41.
+(pdftex.def)             Requested size: 184.3758pt x 139.528pt.
 
-<Assets/Img_chi1_Omega_c.jpeg, id=119, 3684.76625pt x 2078.76625pt>
-File: Assets/Img_chi1_Omega_c.jpeg Graphic file (type jpg)
-<use Assets/Img_chi1_Omega_c.jpeg>
-Package pdftex.def Info: Assets/Img_chi1_Omega_c.jpeg  used on input line 54.
-(pdftex.def)             Requested size: 157.45813pt x 88.81425pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
-(/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
- (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 54.
- (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-)
-<Assets/Img_chi1_Omega_d.jpeg, id=120, 3684.76625pt x 2078.76625pt>
-File: Assets/Img_chi1_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Img_chi1_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Img_chi1_Omega_d.jpeg  used on input line 54.
-(pdftex.def)             Requested size: 157.45813pt x 88.81425pt.
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [4
 
- <./Assets/Img_chi1_Omega_c.jpeg> <./Assets/Img_chi1_Omega_d.jpeg>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 76--76
- [][][][]  
- []
-
-<Assets/Real_chi1_Omega_c.jpeg, id=152, 3684.76625pt x 2078.76625pt>
+ <./Assets/Y-type.png>]
+<Assets/Img_chi1_Omega_c.jpeg, id=135, 3684.76625pt x 2078.76625pt>
+File: Assets/Img_chi1_Omega_c.jpeg Graphic file (type jpg)
+<use Assets/Img_chi1_Omega_c.jpeg>
+Package pdftex.def Info: Assets/Img_chi1_Omega_c.jpeg  used on input line 60.
+(pdftex.def)             Requested size: 141.3554pt x 79.74251pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 60.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 60.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 60.
+ (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+)
+<Assets/Real_chi1_Omega_c.jpeg, id=136, 3684.76625pt x 2078.76625pt>
 File: Assets/Real_chi1_Omega_c.jpeg Graphic file (type jpg)
 <use Assets/Real_chi1_Omega_c.jpeg>
-Package pdftex.def Info: Assets/Real_chi1_Omega_c.jpeg  used on input line 76.
-(pdftex.def)             Requested size: 164.30028pt x 92.68402pt.
-<Assets/Real_chi1_Omega_d.jpeg, id=153, 3684.76625pt x 2078.76625pt>
-File: Assets/Real_chi1_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Real_chi1_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Real_chi1_Omega_d.jpeg  used on input line 76.
-(pdftex.def)             Requested size: 164.30028pt x 92.68402pt.
+Package pdftex.def Info: Assets/Real_chi1_Omega_c.jpeg  used on input line 60.
+(pdftex.def)             Requested size: 141.3554pt x 79.74251pt.
 
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [5
 
- <./Assets/Real_chi1_Omega_c.jpeg> <./Assets/Real_chi1_Omega_d.jpeg>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 87--87
- [][][][]  
- []
+ <./Assets/Img_chi1_Omega_c.jpeg> <./Assets/Real_chi1_Omega_c.jpeg>]
+<Assets/Img_chi1_Omega_d.jpeg, id=167, 3684.76625pt x 2078.76625pt>
+File: Assets/Img_chi1_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Img_chi1_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Img_chi1_Omega_d.jpeg  used on input line 82.
+(pdftex.def)             Requested size: 147.49782pt x 83.19992pt.
+<Assets/Real_chi1_Omega_d.jpeg, id=168, 3684.76625pt x 2078.76625pt>
+File: Assets/Real_chi1_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Real_chi1_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Real_chi1_Omega_d.jpeg  used on input line 82.
+(pdftex.def)             Requested size: 147.49782pt x 83.19992pt.
 
-<Assets/Real_chi3_Omega_d.jpeg, id=183, 3684.76625pt x 2079.77pt>
-File: Assets/Real_chi3_Omega_d.jpeg Graphic file (type jpg)
-<use Assets/Real_chi3_Omega_d.jpeg>
-Package pdftex.def Info: Assets/Real_chi3_Omega_d.jpeg  used on input line 87.
-(pdftex.def)             Requested size: 256.72147pt x 144.86888pt.
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [6
 
- <./Assets/Real_chi3_Omega_d.jpeg>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 97--97
- [][][][]  
- []
+ <./Assets/Img_chi1_Omega_d.jpeg> <./Assets/Real_chi1_Omega_d.jpeg>]
+<Assets/Real_chi3_Omega_d.jpeg, id=198, 3684.76625pt x 2079.77pt>
+File: Assets/Real_chi3_Omega_d.jpeg Graphic file (type jpg)
+<use Assets/Real_chi3_Omega_d.jpeg>
+Package pdftex.def Info: Assets/Real_chi3_Omega_d.jpeg  used on input line 93.
+(pdftex.def)             Requested size: 230.46739pt x 130.0805pt.
 
-<Assets/G_v_Power.jpeg, id=212, 3445.87375pt x 2095.83pt>
-File: Assets/G_v_Power.jpeg Graphic file (type jpg)
-<use Assets/G_v_Power.jpeg>
-Package pdftex.def Info: Assets/G_v_Power.jpeg  used on input line 97.
-(pdftex.def)             Requested size: 256.72147pt x 156.12514pt.
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [7
 
- <./Assets/G_v_Power.jpeg>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 108--108
- [][][][]  
- []
+ <./Assets/Real_chi3_Omega_d.jpeg>]
+<Assets/G_v_Power.jpeg, id=228, 3445.87375pt x 2095.83pt>
+File: Assets/G_v_Power.jpeg Graphic file (type jpg)
+<use Assets/G_v_Power.jpeg>
+Package pdftex.def Info: Assets/G_v_Power.jpeg  used on input line 103.
+(pdftex.def)             Requested size: 230.46739pt x 140.16724pt.
 
-<Assets/Beta2_Kerr.jpeg, id=241, 3538.21875pt x 1998.46625pt>
-File: Assets/Beta2_Kerr.jpeg Graphic file (type jpg)
-<use Assets/Beta2_Kerr.jpeg>
-Package pdftex.def Info: Assets/Beta2_Kerr.jpeg  used on input line 108.
-(pdftex.def)             Requested size: 273.83728pt x 154.66608pt.
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [8
 
- <./Assets/Beta2_Kerr.jpeg>]
-Overfull \hbox (26.95096pt too wide) in paragraph at lines 117--117
- [][][][]  
- []
+ <./Assets/G_v_Power.jpeg>]
+<Assets/Beta2_Kerr.jpeg, id=257, 3538.21875pt x 1998.46625pt>
+File: Assets/Beta2_Kerr.jpeg Graphic file (type jpg)
+<use Assets/Beta2_Kerr.jpeg>
+Package pdftex.def Info: Assets/Beta2_Kerr.jpeg  used on input line 114.
+(pdftex.def)             Requested size: 245.83282pt x 138.83963pt.
 
-
-
-
-Overfull \hbox (26.95096pt too wide) has occurred while \output is active
- [][][][]  
- []
 
 [9
+
+ <./Assets/Beta2_Kerr.jpeg>]
+
+[10
 
 ]
 \tf@nav=\write6
@@ -912,18 +827,18 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23281 strings out of 475171
- 448640 string characters out of 5767095
- 810921 words of memory out of 5000000
- 45797 multiletter control sequences out of 15000+600000
+ 23245 strings out of 475171
+ 447565 string characters out of 5767095
+ 808966 words of memory out of 5000000
+ 45756 multiletter control sequences out of 15000+600000
  569997 words of font info for 76 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 128i,16n,123p,462b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,461b,689s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on presentation.pdf (9 pages, 3519463 bytes).
+Output written on presentation.pdf (10 pages, 3515622 bytes).
 PDF statistics:
- 336 PDF objects out of 1000 (max. 8388607)
- 274 compressed objects within 3 object streams
- 21 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 293 compressed objects within 3 object streams
+ 23 named destinations out of 1000 (max. 500000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
