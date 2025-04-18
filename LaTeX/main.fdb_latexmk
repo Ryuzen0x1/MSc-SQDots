@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1744952372.21679 "main.aux" "main.bbl" "main" 1744952372.84441 0
+["bibtex main"] 1744973808.12591 "main.aux" "main.bbl" "main" 1744974582.49612 0
   "./citations.bib" 1744911645.41483 6065 4cbd12ea5f4efd91f31aa275f5c0148b ""
   "/usr/share/texmf-dist/bibtex/bst/natbib/unsrtnat.bst" 1742685315 24550 a41a6405f4de768c43e871d9fbce2bc8 ""
-  "main.aux" 1744952372.71538 8350 72dd44e151436e908d928f973e54b2d8 "pdflatex"
+  "main.aux" 1744974582.31252 8355 3b88fe6943d502aac5a22b10f06f09e7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1744952372.2615 "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" "main.pdf" "main" 1744952372.84457 0
-  "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" 1744952370.67184 45985 58daf1703e8b69cb95b5eb96a9f47b58 ""
+["pdflatex"] 1744974581.22858 "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" "main.pdf" "main" 1744974582.4963 0
+  "/home/ryuki/Documents/MSc-Project/LaTeX/main.tex" 1744974580.99934 45851 5f381efb9775fc668447f10629567f26 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc" 1742685315 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/bitstrea/charter/bchb8r.tfm" 1742685315 5184 4fd08a9613e75c1da82714d79cf8b4f1 ""
@@ -129,11 +129,11 @@
   "Plots/Real_chi1_Omega_d.jpeg" 1744888668 472518 733bf3fda52becd0ba5f342d5acb5d24 ""
   "Plots/Real_chi3_Omega_c.jpeg" 1744888668 396259 b3a61ed300b4b00f223b119ba862567e ""
   "Plots/Real_chi3_Omega_d.jpeg" 1744888668 440079 c3ca413e0e779a8c2093fda67c13059f ""
-  "main.aux" 1744952372.71538 8350 72dd44e151436e908d928f973e54b2d8 "pdflatex"
-  "main.bbl" 1744952372.25684 5095 919bc06d02297f1ca3527121a4efafd9 "bibtex main"
-  "main.out" 1744952372.71584 2707 84db8de3b00227e85ef7c965db016cdc "pdflatex"
-  "main.tex" 1744952370.67184 45985 58daf1703e8b69cb95b5eb96a9f47b58 ""
-  "main.toc" 1744952372.71584 1219 409cbb1dccddc3bb388eb0b684d4732a "pdflatex"
+  "main.aux" 1744974582.31252 8355 3b88fe6943d502aac5a22b10f06f09e7 "pdflatex"
+  "main.bbl" 1744973808.22049 5095 919bc06d02297f1ca3527121a4efafd9 "bibtex main"
+  "main.out" 1744974582.31401 2707 84db8de3b00227e85ef7c965db016cdc "pdflatex"
+  "main.tex" 1744974580.99934 45851 5f381efb9775fc668447f10629567f26 ""
+  "main.toc" 1744974582.31498 1219 409cbb1dccddc3bb388eb0b684d4732a "pdflatex"
   "pictures/DoSvsE.PNG" 1744911675.27201 17919 598c0a32111074dfaece63da4ca411a0 ""
   "pictures/Y-type.png" 1744911699.97383 14427 917dda80661432c531472c70bf5c52ef ""
   "pictures/rkmlogo.png" 1744911691.63685 96128 31c581af936879c19892de97487fc01e ""
