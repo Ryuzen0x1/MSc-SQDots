@@ -209,59 +209,7 @@ As written above,
 \begin{align}
     D(\omega)=(\omega+\Delta_p+i\gamma_2)(\omega+\Delta_p+\Delta_d+i\gamma_4)(\omega+\Delta_p+\Delta_c+i\gamma_3)&-|\Omega_b|^2(\omega+\Delta_p+\Delta_c+i\gamma_3)\nonumber\\ &-|\Omega_c|^2((\omega+\Delta_p+\Delta_d+i\gamma_4)),
 \end{align}
-the others \(D_p(0)\) and \(D(0)\) can be gotten from eqs.(34), (35). 
-\newpage
-
-\section{Non-linear Schr\"{o}dinger Equation}
-In order to study the modulation instability of the probe beam,which could be either a continuous wave (CW) or a quasi continuous wave(QCW), we need to derive an appropriate nonlinear Schrodinger equation~\cite{Scully_Zubairy_1997}. Therefore,as a first step, we perform Fourier transformation of the linearized version of Equation (31), making it:
-\begin{equation}
-    \frac{\partial\Lambda_P}{\partial z}-i\beta(\omega)\Lambda_P=0,
-\end{equation}
-where the propagation constant of the probe field is denoted as,
-\begin{equation}
-    \beta(\omega)=\frac{\omega}{c}-k\frac{D_p(\omega)}{D(\omega)},
-\end{equation}
-the term \(\beta(\omega)\) can be identified as the frequency dependent dispersion function. Equation (36) can be solved analytically to obtain:
-\begin{equation}
-    \Lambda_P(z,\omega)=\Lambda_P(0,\omega)e^{i\beta(\omega)z},
-\end{equation}
-to investigate properties of the propagating probe pulse,the propagation constant \(\beta=\beta(\omega)\) can be expanded in Taylor series around the central frequency of the probe field, i.e., \(\omega=0\), as,
-\begin{equation}
-    \beta(\omega)=\beta(0)+\beta^\prime(0)\omega+\frac{1}{2}\beta^{\prime\prime}(0)\omega^2+O(\omega^3),
-\end{equation}
-from eqs.(37), [\(\omega=0\)],
-\begin{equation}
-    \beta(0)=-k\frac{D_P(0)}{D(0)},
-\end{equation}.
-Equation (36) is obtained using the linearized wave equation where optical nonlinearity of the probe field has been neglected. To investigate nonlinear pulse propagation, we need to incorporate the effect of optical nonlinear terms in the pulse dynamics. These nonlinear terms are responsible for self-phase modulation phenomenon which together with GVD lead to shape-preserving solitary wave propagation. Therefore, to proceed further, instead of considering Eq. (36), we take Eq. (31) which can be put in the following form,
-\begin{equation}
-    \frac{\partial\Lambda_P}{\partial z}-i\beta(\omega)\Lambda_P-NLT\beta^{(1)}_{21}=0,
-\end{equation}
-so, we take a trial function,
-\begin{equation}
-    \Lambda_P(z,\omega)=\tilde\Lambda_P(0,\omega)\exp(i\beta(0)z),
-\end{equation}
-using eqs. (41), (42) we get,
-\begin{equation}
-    \big[\frac{\partial}{\partial z}-i\omega\beta^\prime(0)-i\frac{\omega^2}{2}\beta^{\prime\prime}(0)\big]\tilde\Lambda_P(z,\omega)e^{-i\beta(0)z}=NLT\beta^{(1)}_{21},
-\end{equation}
-here Inverse Fourier transformation is,
-\begin{equation}
-    \tilde\Omega_P(z,t)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\tilde\Lambda_P(z,\omega)e^{-i\omega t}d\omega,
-\end{equation}
-by virtue of Eqs (32), (38), (39) the Eq (41) changes to,
-\begin{multline}
-    {\left\lbrace{\frac{\partial}{\partial z}}+{i\beta_{1}(0)}     \omega -{i\beta_{2}(0)}\frac{\omega^2}{2}+{i\beta_{3}(0)}  \frac{\omega^3}{6}+{\beta_{4}(0)}\frac{\omega^4}{24}  \right\rbrace}{\Lambda_p{(0,\omega)}}e^{i{\beta{(0)}z}} \\ = {i\kappa}\frac{D_p{(\omega)}}{D{(\omega,\Phi)}}{\Lambda_p{(0,\omega)}}e^{i{\beta{(0)}z}}{\left\lbrace{{\left({\vert\tilde\rho^{(1)}_{21}\vert}^{2}+{\vert\tilde\rho^{(1)}_{31}\vert}^{2}+{\vert\tilde\rho^{(1)}_{41}\vert}^{2}\right)}-{\left({\vert\tilde\rho^{(1)}_{21}\vert}^{2}+{\vert\tilde\rho^{(1)}_{31}\vert}^{2}+{\vert\tilde\rho^{(1)}_{41}\vert}^{2}\right)}^2}\right\rbrace}
-\end{multline}
-here we have taken terms upto $\omega^{4}$ in the expansion of $\beta{(\omega ,\Phi)}$. By virtue of the substitution of expressions of $\tilde\rho^{(1)}_{21}$,$\tilde\rho^{(1)}_{31}$,$\tilde\rho^{(1)}_{41}$, and the inverse Fourier transformation of Eq. (45), we immediately obtain   
-\begin{equation}
-    {i\frac{\partial {\Omega_p}}{\partial z}}+{i\beta_{1}}{\frac{\partial {\Omega_p}}{\partial t}} -\frac{{\beta_{2}}}{2}{\frac{\partial^{2} {\Omega_p}}{\partial t^{2}}}-\frac{{i\beta_{3}}}{6}{\frac{\partial^{3} {\Omega_p}}{\partial t^{3}}}+\frac{{\beta_{4}}}{24}{\frac{\partial^{4} {\Omega_p}}{\partial t^{4}}}+{\frac{\Omega_{p}{\hbar}^{2}}{2c{\vert\mu_{41}\vert}^{2}}}{\chi^{(3)}}{\vert\Omega_{p}\vert}^{2}{\Omega_p}e^{-\alpha z} = 0
-\end{equation}.
-Introducing the moving frame $\xi = z$ and $T=t-z\beta_{1}{(0,\Phi)}$, Eq (42) can be recasted in the following form:
-\begin{equation}
-    {i\frac{\partial {A}}{\partial \xi}}-\frac{{\beta_{2}}}{2}{\frac{\partial^{2} {A}}{\partial T^{2}}}-\frac{{i\beta_{3}}}{6}{\frac{\partial^{3} {A}}{\partial T^{3}}}+\frac{{\beta_{4}}}{24}{\frac{\partial^{4} {A}}{\partial T^{4}}}+{\gamma}{\vert{A}\vert}^{2}Ae^{-\alpha \xi} = 0
-\end{equation}
-where the A is the normalized envelop of the probe beam. $\gamma$ is respectively the phase-dependent Kerr nonlinear coefficient. Equation (42) represents the modified form of nonlinear Schrodinger equation which describes the evolution of the CW or quasi-CW probe beam in QD system.
+the others \(D_p(0)\) and \(D(0)\) can be gotten from eqs.(34), (35).
 
 \section{Linear and Non-linear Susceptibilities}
 
@@ -331,6 +279,57 @@ The dispersion spectra of the real part of the third-order nonlinear susceptibil
 
 More specifically, increasing \(\Omega_d\) or \(\Omega_c\) results in enhanced splitting and asymmetry in the dispersion profiles, a manifestation of strong Autler--Townes splitting and dynamic Stark shifts in the atomic energy levels. The observed spectral modulations point to the presence of both normal and anomalous dispersion regions, corresponding respectively to subluminal and superluminal group velocity regimes. Importantly, the field-dependent tailoring of \(\text{Re}\,\chi^{(3)}\) opens avenues for precise engineering of nonlinear optical responses, crucial for developing applications such as all-optical switching, tunable delay lines, and quantum phase gates. The ability to dynamically control the third-order susceptibility without introducing significant absorption further emphasizes the practicality of this scheme in low-power, high-coherence quantum photonic systems.
 
+\section{Non-linear Schr\"{o}dinger Equation}
+In order to study the modulation instability of the probe beam,which could be either a continuous wave (CW) or a quasi continuous wave(QCW), we need to derive an appropriate nonlinear Schrodinger equation~\cite{Scully_Zubairy_1997}. Therefore,as a first step, we perform Fourier transformation of the linearized version of Equation (31), making it:
+\begin{equation}
+    \frac{\partial\Lambda_P}{\partial z}-i\beta(\omega)\Lambda_P=0,
+\end{equation}
+where the propagation constant of the probe field is denoted as,
+\begin{equation}
+    \beta(\omega)=\frac{\omega}{c}-k\frac{D_p(\omega)}{D(\omega)},
+\end{equation}
+the term \(\beta(\omega)\) can be identified as the frequency dependent dispersion function. Equation (36) can be solved analytically to obtain:
+\begin{equation}
+    \Lambda_P(z,\omega)=\Lambda_P(0,\omega)e^{i\beta(\omega)z},
+\end{equation}
+to investigate properties of the propagating probe pulse,the propagation constant \(\beta=\beta(\omega)\) can be expanded in Taylor series around the central frequency of the probe field, i.e., \(\omega=0\), as,
+\begin{equation}
+    \beta(\omega)=\beta(0)+\beta^\prime(0)\omega+\frac{1}{2}\beta^{\prime\prime}(0)\omega^2+O(\omega^3),
+\end{equation}
+from eqs.(37), [\(\omega=0\)],
+\begin{equation}
+    \beta(0)=-k\frac{D_P(0)}{D(0)},
+\end{equation}.
+Equation (36) is obtained using the linearized wave equation where optical nonlinearity of the probe field has been neglected. To investigate nonlinear pulse propagation, we need to incorporate the effect of optical nonlinear terms in the pulse dynamics. These nonlinear terms are responsible for self-phase modulation phenomenon which together with GVD lead to shape-preserving solitary wave propagation. Therefore, to proceed further, instead of considering Eq. (36), we take Eq. (31) which can be put in the following form,
+\begin{equation}
+    \frac{\partial\Lambda_P}{\partial z}-i\beta(\omega)\Lambda_P-NLT\beta^{(1)}_{21}=0,
+\end{equation}
+so, we take a trial function,
+\begin{equation}
+    \Lambda_P(z,\omega)=\tilde\Lambda_P(0,\omega)\exp(i\beta(0)z),
+\end{equation}
+using eqs. (41), (42) we get,
+\begin{equation}
+    \big[\frac{\partial}{\partial z}-i\omega\beta^\prime(0)-i\frac{\omega^2}{2}\beta^{\prime\prime}(0)\big]\tilde\Lambda_P(z,\omega)e^{-i\beta(0)z}=NLT\beta^{(1)}_{21},
+\end{equation}
+here Inverse Fourier transformation is,
+\begin{equation}
+    \tilde\Omega_P(z,t)=\frac{1}{\sqrt{2\pi}}\int_{-\infty}^{\infty}\tilde\Lambda_P(z,\omega)e^{-i\omega t}d\omega,
+\end{equation}
+by virtue of Eqs (32), (38), (39) the Eq (41) changes to,
+\begin{multline}
+    {\left\lbrace{\frac{\partial}{\partial z}}+{i\beta_{1}(0)}     \omega -{i\beta_{2}(0)}\frac{\omega^2}{2}+{i\beta_{3}(0)}  \frac{\omega^3}{6}+{\beta_{4}(0)}\frac{\omega^4}{24}  \right\rbrace}{\Lambda_p{(0,\omega)}}e^{i{\beta{(0)}z}} \\ = {i\kappa}\frac{D_p{(\omega)}}{D{(\omega,\Phi)}}{\Lambda_p{(0,\omega)}}e^{i{\beta{(0)}z}}{\left\lbrace{{\left({\vert\tilde\rho^{(1)}_{21}\vert}^{2}+{\vert\tilde\rho^{(1)}_{31}\vert}^{2}+{\vert\tilde\rho^{(1)}_{41}\vert}^{2}\right)}-{\left({\vert\tilde\rho^{(1)}_{21}\vert}^{2}+{\vert\tilde\rho^{(1)}_{31}\vert}^{2}+{\vert\tilde\rho^{(1)}_{41}\vert}^{2}\right)}^2}\right\rbrace}
+\end{multline}
+here we have taken terms upto $\omega^{4}$ in the expansion of $\beta{(\omega ,\Phi)}$. By virtue of the substitution of expressions of $\tilde\rho^{(1)}_{21}$,$\tilde\rho^{(1)}_{31}$,$\tilde\rho^{(1)}_{41}$, and the inverse Fourier transformation of Eq. (45), we immediately obtain   
+\begin{equation}
+    {i\frac{\partial {\Omega_p}}{\partial z}}+{i\beta_{1}}{\frac{\partial {\Omega_p}}{\partial t}} -\frac{{\beta_{2}}}{2}{\frac{\partial^{2} {\Omega_p}}{\partial t^{2}}}-\frac{{i\beta_{3}}}{6}{\frac{\partial^{3} {\Omega_p}}{\partial t^{3}}}+\frac{{\beta_{4}}}{24}{\frac{\partial^{4} {\Omega_p}}{\partial t^{4}}}+{\frac{\Omega_{p}{\hbar}^{2}}{2c{\vert\mu_{41}\vert}^{2}}}{\chi^{(3)}}{\vert\Omega_{p}\vert}^{2}{\Omega_p}e^{-\alpha z} = 0
+\end{equation}.
+Introducing the moving frame $\xi = z$ and $T=t-z\beta_{1}{(0,\Phi)}$, Eq (42) can be recasted in the following form:
+\begin{equation}
+    {i\frac{\partial {A}}{\partial \xi}}-\frac{{\beta_{2}}}{2}{\frac{\partial^{2} {A}}{\partial T^{2}}}-\frac{{i\beta_{3}}}{6}{\frac{\partial^{3} {A}}{\partial T^{3}}}+\frac{{\beta_{4}}}{24}{\frac{\partial^{4} {A}}{\partial T^{4}}}+{\gamma}{\vert{A}\vert}^{2}Ae^{-\alpha \xi} = 0
+\end{equation}
+where the A is the normalized envelop of the probe beam. $\gamma$ is respectively the phase-dependent Kerr nonlinear coefficient. Equation (42) represents the modified form of nonlinear Schrodinger equation which describes the evolution of the CW or quasi-CW probe beam in SQD systems.
+
 \section{Modulation instability of Probe Field}
 
 In this section we now proceed to investigate the modulation instability of the CW or QCW probe field. The steady state solution of Eqn. (40) can be written as,
@@ -385,8 +384,6 @@ p_c = {\left[ \frac{|W_r|r - 2|M_r|r^2}{\beta^{\prime\prime}_r(0)} \right]}^{1/2
 \end{equation}
 \vspace{0pt}
 
-\section{Gain Variation w.r.t Frequency}
-
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.7\linewidth]{Plots/G_v_Power.jpeg}
@@ -400,9 +397,6 @@ At all power levels, MI sidebands are symmetrically distributed about the centra
 The parabolic gain profiles emerge from the interplay between Kerr-induced phase modulation and higher-order dispersion, dominated by the fourth-order dispersion term \( \beta_4 \). The gain drops to zero at \( \Omega = 0 \), consistent with the phase mismatch criterion for MI.
 
 Such gain spectra are pivotal in applications such as ultrafast pulse generation, optical frequency combs, and spontaneous MI-driven supercontinuum generation. The power dependence provides tunability, making quantum-dot-based platforms highly attractive for nonlinear integrated photonics.
-\newpage
-
-\section{Variation of Gain to Power and Frequency}
 
 Here we did the waterfall plot of Kerr using $2^{nd}$ and \(4^{th}\) order dispersion. 
 
