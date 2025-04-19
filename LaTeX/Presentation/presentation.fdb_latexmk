@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1745004783.46881 "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" "presentation.pdf" "presentation" 1745004785.15044 0
-  "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" 1745004783.18889 4431 59a151685d907635dcf6394dd0ea6a7d ""
+["pdflatex"] 1745029308.10451 "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" "presentation.pdf" "presentation" 1745029308.85167 0
+  "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" 1745029307.85835 4928 e74885ef6de9b86108f16c191b61cb35 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1742685315 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1742685315 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -17,6 +17,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmss12.tfm" 1742685315 1324 37b971caf729d7edd9cbb9f9b0ea76eb ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmss17.tfm" 1742685315 1320 ed93d62c5f2c16343826001f03341dbc ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmss8.tfm" 1742685315 1296 d77f431d10d47c8ea2cc18cf45346274 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmssi12.tfm" 1742685315 1532 48589e216c7fb787d0f3ee1a3047705d ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1742685315 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1742685315 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1742685315 1120 8b7d695260f3cff42e636090a8002094 ""
@@ -216,10 +217,10 @@
   "Assets/Real_chi1_Omega_d.jpeg" 1744985212.37083 472518 733bf3fda52becd0ba5f342d5acb5d24 ""
   "Assets/Real_chi3_Omega_d.jpeg" 1744985212.4382 440079 c3ca413e0e779a8c2093fda67c13059f ""
   "Assets/Y-type.png" 1744985227.87116 14427 917dda80661432c531472c70bf5c52ef ""
-  "presentation.aux" 1745004785.01028 1816 5aad301964359342cd61f6695edcd52a "pdflatex"
-  "presentation.nav" 1745004785.01169 1109 07396102f9d82bf25877ba7d82798efb "pdflatex"
-  "presentation.out" 1745004784.44583 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "presentation.tex" 1745004783.18889 4431 59a151685d907635dcf6394dd0ea6a7d ""
+  "presentation.aux" 1745029308.78735 1945 d32e96f30ed344ec7d6ca0c4cff7a2b1 "pdflatex"
+  "presentation.nav" 1745029308.78894 1202 a971439ba5eedf62b158aa4c3f07763d "pdflatex"
+  "presentation.out" 1745029308.52752 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "presentation.tex" 1745029307.85835 4928 e74885ef6de9b86108f16c191b61cb35 ""
   (generated)
   "presentation.aux"
   "presentation.log"
