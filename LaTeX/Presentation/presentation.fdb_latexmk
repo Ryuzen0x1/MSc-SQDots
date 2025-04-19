@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1745030067.0834 "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" "presentation.pdf" "presentation" 1745030068.74187 0
-  "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" 1745030066.81531 4963 6ced883c63c2a0afcaab043e1c7f4d74 ""
+["pdflatex"] 1745030602.63873 "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" "presentation.pdf" "presentation" 1745030603.55875 0
+  "/home/ryuki/Documents/MSc-Project/LaTeX/Presentation/presentation.tex" 1745030602.37329 4974 64319d79f8ab93c710e0b1d856ba9b4b ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1742685315 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1742685315 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1742685315 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -219,10 +219,10 @@
   "Assets/Real_chi1_Omega_d.jpeg" 1744985212.37083 472518 733bf3fda52becd0ba5f342d5acb5d24 ""
   "Assets/Real_chi3_Omega_d.jpeg" 1744985212.4382 440079 c3ca413e0e779a8c2093fda67c13059f ""
   "Assets/Y-type.png" 1744985227.87116 14427 917dda80661432c531472c70bf5c52ef ""
-  "presentation.aux" 1745030068.65931 2074 ddbc72def1bfc58a58aeb352e95621b7 "pdflatex"
-  "presentation.nav" 1745030068.66031 1295 ef040a83926d85743749b42a2275f515 "pdflatex"
-  "presentation.out" 1745030068.04931 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "presentation.tex" 1745030066.81531 4963 6ced883c63c2a0afcaab043e1c7f4d74 ""
+  "presentation.aux" 1745030603.48129 2074 ddbc72def1bfc58a58aeb352e95621b7 "pdflatex"
+  "presentation.nav" 1745030603.48229 1295 ef040a83926d85743749b42a2275f515 "pdflatex"
+  "presentation.out" 1745030603.19151 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "presentation.tex" 1745030602.37329 4974 64319d79f8ab93c710e0b1d856ba9b4b ""
   (generated)
   "presentation.aux"
   "presentation.log"
